@@ -1,0 +1,33 @@
+---
+id: 466
+title: The future of the archives
+date: 2010-06-28T12:35:15+00:00
+author: jaume
+layout: post
+guid: http://nualart.cat/?p=466
+permalink: /2010/06/the-future-of-the-archives/
+categories:
+  - english
+  - lecture
+  - on stage
+  - visualizations
+---
+> Workshop and round table, 1st July 2010 @ CCCB, inside CCCBlab ICI (Investigació i innovació en l&#8217;àmbit cultural). Barcelona (CAT)
+> 
+> Second workshop 13th July
+
+<a href="http://nualart.cat/wp-content/uploads/2010/06/logoici.png" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://nualart.cat/wp-content/uploads/2010/06/logoici.png', '']);" ><img class="alignleft size-full wp-image-467" style="margin: 7px 8px;" title="logoici" src="http://nualart.cat/wp-content/uploads/2010/06/logoici.png" alt="" width="202" height="143" /></a>The CCCB has worked on the digitization of its documentary for more than three years. It is now fully searchable and offers to the visitors the materials of the activities organized since the foundation of the center in 1994. To mark the completion of this process, this session proposes a debate on the future of the archives from the horizon of the web 3.0 or the key issues of information architecture and data visualization, to the meaning to maintain and disseminate the knowledge generated files cultural institutions.
+
+**11h-14h / 16h-18h:** Workshop &#8221; <a href="http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/taller-de-visualizacion-de-datos-en-archivos/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhinY-SSQqwv6IZiPhxpFDYQN-hO5Q" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/taller-de-visualizacion-de-datos-en-archivos/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhinY-SSQqwv6IZiPhxpFDYQN-hO5Q', 'display  of data in archives']);" ><strong>display of data in archives</strong></a> &#8220;with <a href="http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/jaume-nualart/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhjLUbY2FIRSpTVZpyXoBLqAD9I1qA" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/jaume-nualart/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhjLUbY2FIRSpTVZpyXoBLqAD9I1qA', 'Jaume  Nualart']);" >Jaume Nualart</a> i <a href="http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/mar-canet&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhgs-YLhUWYlKYCtQEPPpnRLzpkX8w" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/mar-canet&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhgs-YLhUWYlKYCtQEPPpnRLzpkX8w', 'Mar  Canet']);" >Mar Canet</a>
+
+The display of information not only serves to show, teach or represent archives and digital. It also serves to multiply the access, enhanced search and understand the data collections. In short, to transform data into knowledge. In this workshop we are challenged to propose tools and ways of viewing the newly digitized archive of the CCCB.
+
+**&#8211; 19h:** Panel discussion **&#8220;Future Files&#8221;,** with <a href="http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/laurence-rassel/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhghBPd07SVkoIJki_r3Ovf9jHa5Ug" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/laurence-rassel/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhghBPd07SVkoIJki_r3Ovf9jHa5Ug', 'Laurence  Rassel']);" >Laurence Rassel</a> , <a href="http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/jaume-nualart/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhjLUbY2FIRSpTVZpyXoBLqAD9I1qA" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/jaume-nualart/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhjLUbY2FIRSpTVZpyXoBLqAD9I1qA', 'Jaume  Nualart']);" >Jaume Nualart</a> , <a href="http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/dolors-reig/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhgLX0ollcZrccPvQsk_C_jHskqBqg" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/dolors-reig/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhgLX0ollcZrccPvQsk_C_jHskqBqg', 'Reig  Dolors']);" >Reig Dolors</a> and <a href="http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/mario-perez/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhhkh3p7fVeToB04bQ0FqAP_4Am53Q" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://translate.googleusercontent.com/translate_c?hl=ca&ie=UTF-8&sl=es&tl=en&u=http://www.cccb.org/icionline/autors/mario-perez/&prev=_t&rurl=translate.google.com&twu=1&usg=ALkJrhhkh3p7fVeToB04bQ0FqAP_4Am53Q', 'Mario  Perez-Montoro']);" >Mario Perez-Montoro</a> .
+
+Slides of the presentation (<a href="http://nualart.cat//wp-content/uploads/2010/07/Nou.zip" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://nualart.cat//wp-content/uploads/2010/07/Nou.zip', 'here']);" >here</a>)
+
+<div class="addtoany_share_save_container addtoany_content_bottom">
+  <div class="a2a_kit a2a_kit_size_32 addtoany_list a2a_target" id="wpa2a_42">
+    <a href="https://www.addtoany.com/share" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'https://www.addtoany.com/share', 'Share/Comparteix']);" class="a2a_dd addtoany_share_save"  style="background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle"><span>Share/Comparteix</span></a>
+  </div>
+</div>

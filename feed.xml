@@ -1,0 +1,1728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaume Nualart Vilaplana. Blog &amp;amp; Projects</title>
+    <description>Welcome to Jaume Nualart Vilaplana&#39;s personal blog and projects site. For specific information about my researcg career, please check &lt;a href=&#39;http://research.nualart.cat&#39; name=&#39;_research.nualart.cat&#39;&gt;http://research.nualart.cat&lt;/a&gt;</description>
+    <link>http://nualart.cat/</link>
+    <atom:link href="http://nualart.cat/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 17 Apr 2017 14:08:59 +0200</pubDate>
+    <lastBuildDate>Mon, 17 Apr 2017 14:08:59 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>#9N 2014, Catalonia decides its Futur</title>
+        <description>&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_84&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 04 Nov 2014 22:39:31 +0100</pubDate>
+        <link>http://nualart.cat/2014/11/9n-2014-catalonia-decides-its-futur/</link>
+        <guid isPermaLink="true">http://nualart.cat/2014/11/9n-2014-catalonia-decides-its-futur/</guid>
+        
+        
+        <category>catala</category>
+        
+        <category>drets/rights</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper: &amp;#8220;How we draw texts: a review of approaches to text visualization and exploration&amp;#8221;</title>
+        <description>&lt;p&gt;&lt;strong&gt;How we draw texts: a review of approaches to text visualization and exploration.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;by Jaume Nualart-Vilaplana, Mario Pérez-Montoro, and Mitchell Whitelaw&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Article received on 19-01-2014&lt;/p&gt;
+
+&lt;p&gt;Approved on 09-03-2014&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This paper presents a review of approaches to text visualization and exploration. Text visualization and exploration, we argue, constitute a subfield of data visualization, and are fuelled by the advances being made in text analysis research and by the growing amount of accessible data in text format. We propose an original classification for a total of 49 cases based on the visual features of the approaches adopted, identified using an inductive process of analysis. We group the cases (published between 1994 and 2013) in two categories: single-text visualizations and text-collection visualizations, both of which can be explored and compared online.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Review, Text visualization, Data visualization, Data exploration, Data display, Information visualization, Text analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nualart-Vilaplana, Jaume; Pérez-Montoro, Mario; Whitelaw, Mitchell (2014). “How we draw texts: a review of approaches to text visualization and exploration”. El profesional de la información, mayo-junio, v. 23, n. 3, pp. 221-235.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://dx.doi.org/10.3145/epi.2014.may.02&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://dx.doi.org/10.3145/epi.2014.may.02&#39;, &#39;http://dx.doi.org/10.3145/epi.2014.may.02&#39;]);&quot; title=&quot;How  we draw texts&quot;&gt;http://dx.doi.org/10.3145/epi.2014.may.02&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is an Open Access publication:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;English (original) PDF: &lt;a href=&quot;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02.pdf&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02.pdf&#39;, &#39;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02.pdf&#39;]);&quot; title=&quot;How we draw texts&quot; target=&quot;_blank&quot;&gt;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spanish translation: &lt;a href=&quot;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02_esp.pdf&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02_esp.pdf&#39;, &#39;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02_esp.pdf&#39;]);&quot; title=&quot;Como dibujamos textos&quot; target=&quot;_blank&quot;&gt;http://www.elprofesionaldelainformacion.com/contenidos/2014/mayo/02_esp.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_83&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 02 Jul 2014 04:28:31 +0200</pubDate>
+        <link>http://nualart.cat/2014/07/paper-how-we-draw-texts/</link>
+        <guid isPermaLink="true">http://nualart.cat/2014/07/paper-how-we-draw-texts/</guid>
+        
+        
+        <category>academia</category>
+        
+        <category>english</category>
+        
+        <category>on-stage</category>
+        
+        <category>visualizations</category>
+        
+        <category>writings</category>
+        
+      </item>
+    
+      <item>
+        <title>Crossreads, non-linear reader</title>
+        <description>&lt;div style=&quot;color: #222222;&quot;&gt;
+  &lt;div id=&quot;attachment_976&quot; style=&quot;width: 154px&quot; class=&quot;wp-caption alignleft&quot;&gt;
+    &lt;img class=&quot;wp-image-976 &quot; src=&quot;http://nualart.cat/wp-content/uploads/2014/05/crossreads-capture-150x150.png&quot; alt=&quot;crossreads-capture&quot; width=&quot;144&quot; height=&quot;144&quot; srcset=&quot;http://nualart.cat/wp-content/uploads/2014/05/crossreads-capture-150x150.png 150w, http://nualart.cat/wp-content/uploads/2014/05/crossreads-capture-36x36.png 36w, http://nualart.cat/wp-content/uploads/2014/05/crossreads-capture-110x110.png 110w&quot; sizes=&quot;(max-width: 144px) 100vw, 144px&quot; /&gt;
+
+    &lt;p class=&quot;wp-caption-text&quot;&gt;
+      Crossreads let you read texts in alternative order
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;p&gt;
+    Very happy to announce a new project: &lt;strong&gt;Crossreads&lt;/strong&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  Crossreads is about breaking linearity of narratives.
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  Firstly we segment a text or collection of texts into small pieces. Then we calculate several kinds of similarity among pieces. Finally, a web app allow crossreading of the original texts.
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  Those new created narratives (path through pieces of text) produce a different effect on brains reader that the usually expected by the autos in a traditional, linear reading.
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  Crossreads is presented today in the exhibition &amp;#8220;THE LISTENING EYE
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  EUGENI BONET: SCREENS, PROJECTIONS, WRITINGS&amp;#8221; at MACBA (Barcelona, Catalonia, EU)
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 style=&quot;color: #222222;&quot;&gt;
+  &lt;strong&gt;Crossreads tool: &lt;a href=&quot;http://www.macba.cat/eugenibonet/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.macba.cat/eugenibonet/&#39;, &#39;http://www.macba.cat/eugenibonet/&#39;]);&quot; title=&quot;Crossreads at MACBA&quot;&gt;http://www.macba.cat/eugenibonet/&lt;/a&gt;&lt;/strong&gt;
+&lt;/h2&gt;
+&lt;/blockquote&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  Exhibition: &lt;a href=&quot;http://www.macba.cat/en/exhibition-eugeni-bonet&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.macba.cat/en/exhibition-eugeni-bonet&#39;, &#39;http://www.macba.cat/en/exhibition-eugeni-bonet&#39;]);&quot;&gt;http://www.macba.cat/en/exhibition-eugeni-bonet&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  GitHub: https://github.com/jaumet/crossreads
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;color: #222222;&quot;&gt;
+  Crossreas is an old idea of Jaume Nualart, developed with the help of&lt;strong&gt; &lt;a href=&quot;http://users.cecs.anu.edu.au/~gferraro/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://users.cecs.anu.edu.au/~gferraro/&#39;, &#39;Gabriela Ferraro&#39;]);&quot; title=&quot;Gabriela Ferraro&quot;&gt;Gabriela Ferraro&lt;/a&gt;&lt;/strong&gt; on coding, from a proposal of  &lt;a href=&quot;http://lopesita.blogspot.com.au/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://lopesita.blogspot.com.au/&#39;, &#39;Sònia López&#39;]);&quot; title=&quot;Lopesita&#39;s blog&quot;&gt;&lt;strong&gt;Sònia López&lt;/strong&gt;&lt;/a&gt;, from &lt;a href=&quot;http://www.macba.cat/en&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.macba.cat/en&#39;, &#39;MACBA&#39;]);&quot; title=&quot;MACBA&quot;&gt;MACBA&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_82&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 15 May 2014 21:39:46 +0200</pubDate>
+        <link>http://nualart.cat/2014/05/crossreads-non-linear-reader/</link>
+        <guid isPermaLink="true">http://nualart.cat/2014/05/crossreads-non-linear-reader/</guid>
+        
+        
+        <category>academia</category>
+        
+        <category>english</category>
+        
+        <category>events</category>
+        
+        <category>on-stage</category>
+        
+        <category>projects</category>
+        
+        <category>visualizations</category>
+        
+      </item>
+    
+      <item>
+        <title>Collection of questions from referendums of independence [1846-2014]</title>
+        <description>&lt;p&gt;NOTE: all the information comes form wikipedia, starting in &lt;a href=&quot;http://en.wikipedia.org/wiki/Independence_referendum&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://en.wikipedia.org/wiki/Independence_referendum&#39;, &#39;Independence Referendum page&#39;]);&quot; title=&quot;wikipedia page: Independence referendum&quot;&gt;Independence Referendum page&lt;/a&gt;&lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+  &lt;colgroup span=&quot;3&quot; width=&quot;128&quot;&gt;&lt;/colgroup&gt; &lt;colgroup width=&quot;2025&quot;&gt;&lt;/colgroup&gt; &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      YEAR
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      NATION
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      QUESTION
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1846
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Liberia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Declaration of Independence
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1853
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Maryland
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      ??
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1905
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Norwegian
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      whether you approve the &amp;#8220;already completed dissolution of the union&amp;#8221;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;51&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1933
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      West Australia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Question 1: Are you in favour of the State of Western Australia withdrawing from the Federal Commonwealth established under the Commonwealth of Australia Constitution Act (Imperial)?&lt;br /&gt; Question 2: Are you in favour of a Convention of Representatives of equal number from each of the Australian states being summoned for the purpose of proposing such alterations in the Constitution of the Commonwealth as may appear to such Convention to be necessary?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1944
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Iceland
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Voters were asked whether the Union with Denmark should be abolished and whether to adopt a new republican constitution
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1946
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Faroe Islands
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      ??
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1945
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Cambodia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      It was a six-issies referendum: The questions included whether the country should become independent, and whether the presence of foreign military forces should be refused.
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1958
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Guinea
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you approve the Constitution proposed by the Government of the Republic?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1961
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Western Samoa
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you agree that on 1 January 1962 Western Samoa should become an independent State on the basis of that Constitution?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1962
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Algeria
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you want Algeria to become an independent state, co-operating with France under the conditions defined in the declarations of 19 March 1962
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1964
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Malta
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you approve of the constitution proposed by the Government of Malta, endorsed by the Legislative Assembly, and published in the Malta Gazette?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1964
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Southern Rhodesia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Are you in favour of or against Southern Rhodesia obtaining independence on the basis of the 1961 Constitution of Southern Rhodesia
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1970
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Bahrain
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      ??
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1977
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Djibouti
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      ?? Bailout: Independence | Remain a territory in the French Republic
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;51&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1983
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Federated States of Micronesia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Question 1) Do you approve of the Compact of Free Association and its related Agreements?&lt;br /&gt; Question 2) If the Compact of Free Association is not approved, I recommend to the government that it negotiate an agreement with the government of the United States consistent with my preference for the following political status:[ ] Independence | [ ] A relationship with the United States other than Free Association. You may describe that status
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1990
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Slovenia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Should the Republic of Slovenia become an independent and sovereign state?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Armenia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Azerbaijan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Croatia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Question (1) proposing independence of Croatia (93.24% in favor, 4.15% against).
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Estonia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Question (2), proposing that Croatia should remain in Yugoslavia (5.38% in favor, 92.18% against).
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Georgia (country)
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you support the restoration of the independence of Georgia in accordance with the Act of Declaration of Independence of Georgia of May 26, 1918?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Latvia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      are you in favour of a democratic and independent Republic of Latvia
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Lithuania
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Republic of Macedonia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Nagorno-Karabakh
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Ukraine
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you support the Act of Declaration of Independence of Ukraine
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Transnistria
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Turkmenistan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you agree with the legislative establishment of Turkmenistan as an independent democratic state? Do you support the statement of the President and Supreme Soviet of the Turkmenistan Soviet Socialist Republic &amp;#8220;On the domestic and foreign policy of Turkmenistan&amp;#8221; and the practical activity to implement it?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Uzbekistan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1992
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Bosnia and Herzegovina
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Are you in favor of a sovereign and independent Bosnia-Herzegovina, a state of equal citizens and nations of Muslims, Serbs, Croats and others who live in it?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1992
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      South Ossetia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1993
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Eritrea
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1994
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Moldova
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you want the Republic of Moldova to develop as an independent and unitary state, in the frontiers recognized in the day where Moldova declared sovereignty, to promote a policy of neutrality and to maintain mutually-benefiting economic relations with all the countries of the world, and to guarantee its citizens equal rights, according to international law?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1995
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Bermuda
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Are you in favour of independence for Bermuda?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;51&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1999
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      East Timor
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you accept the proposed special autonomy for East Timor within the unitary state of the Republic of Indonesia?Do you accept the proposed special autonomy for East Timor within the unitary state of the Republic of Indonesia?&lt;br /&gt; Do you reject the proposed special autonomy for East Timor, leading to East Timor&amp;#8217;s separation from Indonesia?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2005
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Iraqi Kurdistan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2006
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Montenegro
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Do you want the Republic of Montenegro to be an independent state with a full international and legal personality?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2006
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      South Ossetia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      should South Ossetia preserve its present status of a de facto independent state?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2006
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Transnistria
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      1) Renouncing independence and potential future integration into Moldova. 2) Independence and potential future integration into Russia
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2009
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Tamil Eelam
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2011
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      South Sudan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+       &lt;a href=&quot;http://en.wikipedia.org/wiki/South_Sudanese_independence_referendum,_2011#Results&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://en.wikipedia.org/wiki/South_Sudanese_independence_referendum,_2011#Results&#39;, &#39;&#39;]);&quot;&gt;&lt;img alt=&quot;Voting form used in the referendum.&quot; src=&quot;http://nualart.cat/wp-content/uploads/2013/11/Southern_Sudanese_independence_referendum_voting_form_2011-222x300.png&quot; width=&quot;80&quot; height=&quot;108&quot; /&gt;&lt;/a&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2014
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Scotland
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Should Scotland be an independent country?
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      QUESTIONS NOT FOUND
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      &lt;strong&gt;(Please comment this entry if you know them)&lt;/strong&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1853
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Maryland
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1946
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Faroe Islands
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1970
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Bahrain
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Armenia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Azerbaijan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Lithuania
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Republic of Macedonia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Nagorno-Karabakh
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Transnistria
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1991
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Uzbekistan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1992
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      South Ossetia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      1993
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Eritrea
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2005
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Iraqi Kurdistan
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;27&quot;&gt;
+    &lt;/td&gt;
+
+    &lt;td align=&quot;RIGHT&quot;&gt;
+      2009
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Tamil Eelam
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;lalala&lt;/p&gt;
+
+&lt;p&gt;lalalala&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p lang=&quot;en&quot; style=&quot;text-align: left;&quot;&gt;
+  &lt;strong&gt;Expected referendums:&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellspacing=&quot;0&quot;&gt;
+  &lt;colgroup span=&quot;2&quot; width=&quot;128&quot;&gt;&lt;/colgroup&gt; &lt;colgroup width=&quot;2025&quot;&gt;&lt;/colgroup&gt; &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+      Late 2013
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Anguilla
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Anguillan independence referendum
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;RIGHT&quot; height=&quot;26&quot;&gt;
+      18/09/14
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Scotland
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Scottish independence referendum.
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;RIGHT&quot; height=&quot;26&quot;&gt;
+      2014
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Catalonia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Catalonian independence referendum.
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+      Between 2014 and 2019
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      New Caledonia
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      New Caledonian independence referendum (envisioned by Nouméa Accord, 1998).
+    &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td align=&quot;LEFT&quot; height=&quot;26&quot;&gt;
+      Between 2015-2020
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Autonomous Region of Bougainville
+    &lt;/td&gt;
+
+    &lt;td align=&quot;LEFT&quot;&gt;
+      Bougainville independence referendum (envisioned by Peace Agreement, 2000)
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_81&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 28 Nov 2013 23:28:56 +0100</pubDate>
+        <link>http://nualart.cat/2013/11/collection-of-questions-from-referendums-of-independence-1846-2014/</link>
+        <guid isPermaLink="true">http://nualart.cat/2013/11/collection-of-questions-from-referendums-of-independence-1846-2014/</guid>
+        
+        
+        <category>drets/rights</category>
+        
+        <category>english</category>
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper: Texty, a visualization tool to aid selection of texts from search outputs</title>
+        <description>&lt;p&gt;&lt;strong&gt;Texty, a visualization tool to aid selection of texts from search outputs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jaume Nualart,&lt;/strong&gt; Faculty of Arts and Design, Univerity of Canberra &amp;amp; Machine Learning Research Group, NICTA. Australia&lt;/p&gt;
+
+&lt;p&gt;and &lt;strong&gt;Mario Pérez-Montoro,&lt;/strong&gt; Department of Information Science, Faculty of Information Science. University of Barcelona, Spain&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Introduction. The presentation of the results page in a search system plays an important role in satisfying the information needs of a user. The usual performance management criteria and tools to organise results have limitations that may hinder the satisfaction of those needs. We present Texty as a new approach that can help improve the search experience of users.&lt;/p&gt;
+
+&lt;p&gt;Method. The corpus of texts to which we applied Texty were papers from Information Research. To filter the texts we have build five groups of words or vocabularies on concrete fields of knowledge: conceptual approach, experimental approach, qualitative methodology, quantitative methodology and computers/IT.&lt;/p&gt;
+
+&lt;p&gt;Results. We show how Texty, intrinsically, is capable of encoding or offer its users information about the text that other alternative classic representations (bar or lines charts, mainly) are not able to offer.&lt;/p&gt;
+
+&lt;p&gt;Conclusions. Texty is a complementary tool that improves intellectual interaction with a lists of texts, allowing users to choose texts more effectively knowing their structure before reading them.&lt;/p&gt;
+
+&lt;p&gt;This is an Open Access publication: &lt;a href=&quot;http://www.informationr.net/ir/18-2/paper581.html&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.informationr.net/ir/18-2/paper581.html&#39;, &#39;http://www.informationr.net/ir/18-2/paper581.html&#39;]);&quot; title=&quot;Paper: Texty, a visualization tool to aid selection of texts from search outputs&quot;&gt;http://www.informationr.net/ir/18-2/paper581.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Nualart, J. Pérez-Montoro, M (2013). Texty, a visualization tool to aid selection of texts from search outputs. Information Research, 18(2) paper 581. [Available at &lt;a href=&quot;http://www.informationr.net/ir/18-2/paper581.html&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.informationr.net/ir/18-2/paper581.html&#39;, &#39;http://InformationR.net/ir/18-2/paper581.html&#39;]);&quot; title=&quot;Texty, a visualization tool to aid selection of texts from search outputs&quot;&gt;http://InformationR.net/ir/18-2/paper581.html&lt;/a&gt;]&lt;/p&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_80&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 02 Jul 2013 14:23:55 +0200</pubDate>
+        <link>http://nualart.cat/2013/07/paper-texty-a-visualization-tool-to-aid-selection-of-texts-from-search-outputs/</link>
+        <guid isPermaLink="true">http://nualart.cat/2013/07/paper-texty-a-visualization-tool-to-aid-selection-of-texts-from-search-outputs/</guid>
+        
+        
+        <category>academia</category>
+        
+        <category>english</category>
+        
+        <category>on-stage</category>
+        
+        <category>visualizations</category>
+        
+        <category>writings</category>
+        
+      </item>
+    
+      <item>
+        <title>“12:00 am” publicat amb llicència lliure</title>
+        <description>&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;http://nualart.cat/wp-content/uploads/2012/10/1200am-Jaume_Nualart-i-Vilaplana.gif&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/wp-content/uploads/2012/10/1200am-Jaume_Nualart-i-Vilaplana.gif&#39;, &#39;&#39;]);&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-927&quot; title=&quot;1200am--Jaume_Nualart-i-Vilaplana&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/10/1200am-Jaume_Nualart-i-Vilaplana.gif&quot; alt=&quot;&quot; width=&quot;100&quot; height=&quot;152&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;p&gt;
+    Han passat 15 anys des que vaig escriure “12:00 am”, la única novel·la que tinc publicada.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    Aquesta novel·la conté n relat curt d’unes 80 pàgines i després dos reculls de relats i microrelats: “Cares i noms” i “Jocs i joguines”. Aquests tests van ser escrits al Cap de l’Horta la primevera de l’any 2006.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    A principis de l’any següent, l’editorial de València A-D-E- la va publicar . Ara, passats 15 anys , anecdòticament el que duraven els drets de l’editorial (avui extinta), l’he publicada a archive.org sota llicència Creative Commns (by-sa-nc). Aqui podeu accedir a baixar-vos el llibre:
+  &lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;
+      &lt;strong&gt;&lt;a href=&quot;http://archive.org/details/1200Am&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://archive.org/details/1200Am&#39;, &#39;http://archive.org/details/1200Am&#39;]);&quot;&gt;http://archive.org/details/1200Am&lt;/a&gt;&lt;/strong&gt;
+    &lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;
+    Com a curiositat, una de les primeres webs que vaig fer a l’any 1997m fou la de “12:00 am”. Avui dia, ja no hi tinc accés, però encara és en-línia &lt;img src=&quot;http://nualart.cat/wp-includes/images/smilies/icon_smile.gif&quot; alt=&quot;:-)&quot; /&gt;
+  &lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;
+      &lt;strong&gt;&lt;a href=&quot;http://alacant.tripod.com/1200am/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://alacant.tripod.com/1200am/&#39;, &#39;http://alacant.tripod.com/1200am/&#39;]);&quot;&gt;http://alacant.tripod.com/1200am/&lt;/a&gt;&lt;/strong&gt;
+    &lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;
+    Espero que la gaudiu lliurement!
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_79&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 13 Oct 2012 14:12:32 +0200</pubDate>
+        <link>http://nualart.cat/2012/10/1200-am-publicat-amb-llicencia-lliure/</link>
+        <guid isPermaLink="true">http://nualart.cat/2012/10/1200-am-publicat-amb-llicencia-lliure/</guid>
+        
+        
+        <category>catala</category>
+        
+        <category>writings</category>
+        
+      </item>
+    
+      <item>
+        <title>Fuster 20 anys</title>
+        <description>&lt;blockquote&gt;
+  &lt;h4 id=&quot;i-morir-deu-ser-deixar-descriureaforismes-joan-fuster&quot;&gt;&lt;strong&gt;I morir deu ser deixar d’escriure.(Aforismes, Joan Fuster)&lt;/strong&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img title=&quot;JOAN-FUSTER-ANY&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/06/JOAN-FUSTER-ANY-300x248.jpg&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;248&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;20 anys sense Fuster. 50 del “Nosaltres…”. I 90 que va nàixer&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;Diria que algú es va fent gran quan les notícies del dia sobre fets del passat l’afecten directament, per viscudes.&lt;/p&gt;
+
+&lt;p&gt;Jo tenia 14 anys i viatjava amb cotxe amb el tiet Pacu (carai el tiet Pacu!). No recordo si cap amunt a cap avall, m’hi he passat mitja vida anant i venint entre Alacant i BarcelonaRipollSantPolVic. El cas és que el tiet va dir, “Em sembla que és bona hora, saps, en Fuster s’aixeca tard”. Jo anava amb pantalons d’esport curts(època meyba) i unes bambes sense mitjons, i tocaven les 3 de la tarda. A mi ja m’agradaven els llibres i ja havia escrit alguna coseta i, a casa, ja havia sentit parlar d’en Fuster. Encara tinc una primera edició de “Nosaltres els valencians”.&lt;/p&gt;
+
+&lt;p&gt;La veritat és que la conversa amb en Fuster no la recordo, el tiet i en Fuster van posar–se el dia, fent molta conya, és notava que es coneixien feia molts anys. Ell ens va obrir al cap d’una estona de picar. “No ens sent aquest, segur que dorm”, deia el tiet..A fora feia calor, molta llum, encara veig una paret de pedra terrosa en un carrer de Sueca.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://nualart.cat/wp-content/uploads/2012/06/joan-fuster1.jpg&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/wp-content/uploads/2012/06/joan-fuster1.jpg&#39;, &#39;&#39;]);&quot;&gt;&lt;img title=&quot;joan-fuster1&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/06/joan-fuster1.jpg&quot; alt=&quot;&quot; width=&quot;400&quot; height=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fuster: incisiu, cabut, irreverentment intel·ligent&lt;/p&gt;
+
+&lt;p&gt;Just abans d’obrir-se, la porta, jo em vaig imaginar que veuria en Fuster, un escriptor -com seria?-, i la porta s’anava obrint i hi apareixia un home alt, prim, molt alt, amb un pijama clàssic, pantaló i camisa, beix, potser crema i vores blaves fosques; immediatament, quell bigoti i aquelles ulleres amb cara d’adormit i cagant-se en tot i rient al mateix temps que s’abraçava amb en Francesc Nualart. Fetes les salutacions, jo allà i: “Aquest és el meu nebot, et volia conèixer, es molt eixerit, el nano”. Em van tocar el cap.&lt;/p&gt;
+
+&lt;p&gt;Vam seure en un saló que recordo espaiós i fosquet. EL tiet Pacu coca-cola , jo aigua, no recordo si en Fuster va fer-se un cafè, em sembla recordar-ne la olor.&lt;/p&gt;
+
+&lt;p&gt;Va durar poca estona la visita, potser mitja hora, ens vam fer petons i vam sortir. No recordo res més d’aquella trobada d’un nen i dos personatges com aquells. Jo tardaria anys a començar a ser com ells i a rebre tantes influències de tots dos: polítiques, literàries, musicals, i, més important, de vida&lt;/p&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_78&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 21 Jun 2012 14:10:52 +0200</pubDate>
+        <link>http://nualart.cat/2012/06/fuster-20-anys/</link>
+        <guid isPermaLink="true">http://nualart.cat/2012/06/fuster-20-anys/</guid>
+        
+        
+        <category>catala</category>
+        
+        <category>drets/rights</category>
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Presentació de la tesina [Cultura lliure i món acadèmic (VI)]</title>
+        <description>&lt;p&gt;Avui 13 de juny del 2012 he presentat la tesina a la Facultat de Dret de la Universitat Autònoma de Barcelona (UAB) en presència: Dr Manuel Ballbé, Dr Mario Pérez-Montoro i Dra Roser Martínez Quintero i ha anat molt bé. AIxò significa que ara passaré de la UAB a la UB per a continuar amb els artícles de la tesi. Recordo que aquesta tesi està feta sense cap subvenció ni contracte de diners i el faig per simple amor a aprendre i a estudiar amb esperença que un dia pugui fer el pas cap al món acadèmic de manera estable econòmicament.&lt;/p&gt;
+
+&lt;p&gt;Penjo aquí el PDF del resum del treball d’investigació. D’aquest treball en surt el primer article de la tesi, que en breu enviarem a la revista escollida. Recordo que la meva intenció és publicar únicament en revistes open access, és a dir, revistes on l’accés als articles es lliure i gratuït.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;img title=&quot;texty-setencies&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/06/texty-setencies.png&quot; alt=&quot;&quot; width=&quot;115&quot; height=&quot;163&quot; /&gt;Un prototipus de texty
+&lt;/div&gt;
+
+&lt;p&gt;**Texty: estudi per a millorar la recuperació d’informació amb&lt;/p&gt;
+
+&lt;p&gt;visualització de textos**&lt;/p&gt;
+
+&lt;p&gt;TREBALL D’INVESTIGACIÓ&lt;/p&gt;
+
+&lt;p&gt;PROGRAMA DE DOCTORAT EN SEGURETAT I PREVENCIÓ&lt;/p&gt;
+
+&lt;p&gt;ESCOLA DE POST GRAU&lt;/p&gt;
+
+&lt;p&gt;UNIVERSITAT AUTÒNOMA DE BARCELONA (UAB)&lt;/p&gt;
+
+&lt;p&gt;PDF: &lt;a href=&quot;http://nualart.cat/wp-content/uploads/2012/06/Jaume-Nualart__Treball-investigaci%C3%B3__abril2012.pdf&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/wp-content/uploads/2012/06/Jaume-Nualart__Treball-investigaci%C3%B3__abril2012.pdf&#39;, &#39;Jaume-Nualart__Treball-investigació__abril2012&#39;]);&quot;&gt;Jaume-Nualart__Treball-investigació__abril2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_77&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 13 Jun 2012 13:46:25 +0200</pubDate>
+        <link>http://nualart.cat/2012/06/presentacio-de-la-tesina-cultura-lliure-i-mon-academic-vi/</link>
+        <guid isPermaLink="true">http://nualart.cat/2012/06/presentacio-de-la-tesina-cultura-lliure-i-mon-academic-vi/</guid>
+        
+        
+        <category>academia</category>
+        
+        <category>catala</category>
+        
+        <category>lecture</category>
+        
+        <category>on-stage</category>
+        
+        <category>visualizations</category>
+        
+        <category>writings</category>
+        
+      </item>
+    
+      <item>
+        <title>The urgency of visualization of opendata portals</title>
+        <description>&lt;p&gt;&lt;strong&gt;opendata sites: new in old style&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;p&gt;
+    From an opendata site we expect a great sort of datasets, as much as possible. We expect a great output of formats, a good geo accuracy, a  data quality regularly updated/reviewed by the institution. An API to use remotely the data.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    I also would like an standard open way for participation, a wikidata where people could improve, correct or add data in the same way as wikipedians do. The institution cannot improve alone all the data they have, is obvious that crowdedition data portals are needed (most great exemple is &lt;a href=&quot;http://nualart.cat/2012/06/the-urgency-of-visualization-of-opendata-sites/www.openstreetmap.org&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/2012/06/the-urgency-of-visualization-of-opendata-sites/www.openstreetmap.org&#39;, &#39;openstreet maps&#39;]);&quot; title=&quot;open street maps&quot;&gt;openstreet maps&lt;/a&gt;)
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    But what I really miss in an opendata site is a visualization of the data. Most of them they are &lt;a href=&quot;https://www.google.com/search?tbm=isch&amp;amp;hl=en&amp;amp;source=hp&amp;amp;biw=1333&amp;amp;bih=769&amp;amp;q=gopher+internet&amp;amp;gbv=2&amp;amp;oq=gopher+internet&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;gs_l=img.12...0.0.0.3063.0.0.0.0.0.0.0.0..0.0...0.0.qDdgtxOuGzg&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.google.com/search?tbm=isch&amp;amp;hl=en&amp;amp;source=hp&amp;amp;biw=1333&amp;amp;bih=769&amp;amp;q=gopher+internet&amp;amp;gbv=2&amp;amp;oq=gopher+internet&amp;amp;aq=f&amp;amp;aqi=&amp;amp;aql=&amp;amp;gs_l=img.12...0.0.0.3063.0.0.0.0.0.0.0.0..0.0...0.0.qDdgtxOuGzg&#39;, &#39;gopher&#39;]);&quot;&gt;gopher&lt;/a&gt; style, usually one level of categories and then a bunch of datasets inside each of the too general categories (&lt;a href=&quot;https://explore.data.gov/catalog/raw/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://explore.data.gov/catalog/raw/&#39;, &#39;data.gov&#39;]);&quot; title=&quot;data.gov&quot;&gt;data.gov&lt;/a&gt;,&lt;a href=&quot;http://data.gov.uk/data&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://data.gov.uk/data&#39;, &#39;data.gov.uk&#39;]);&quot; title=&quot;data.gov.uk&quot;&gt;data.gov.uk&lt;/a&gt;, &lt;a href=&quot;http://datahub.io/dataset&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://datahub.io/dataset&#39;, &#39;the datahub&#39;]);&quot; title=&quot;datahub&quot;&gt;the datahub&lt;/a&gt;,…)
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    &lt;strong&gt;Bird view, please!&lt;/strong&gt;
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    Before I search for something in a opendata site that I’m visiting for the first time, I would like to know some general information about what I have in front of me; I mean: please, tell me something about the data you collect and offer. Minimum important information is:
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    &lt;a href=&quot;http://commons.wikimedia.org/wiki/File:Terrace_field_yunnan_china_2.jpg&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://commons.wikimedia.org/wiki/File:Terrace_field_yunnan_china_2.jpg&#39;, &#39;&#39;]);&quot;&gt;&lt;img title=&quot;Terrace_field_yunnan_china_2&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/06/Terrace_field_yunnan_china_2-300x195.jpg&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;195&quot; /&gt;&lt;/a&gt;
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    Terrace field in Yunnan, China, by Jialiang Gao
+  &lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;
+      number or records
+    &lt;/li&gt;
+    &lt;li&gt;
+      number of datasets
+    &lt;/li&gt;
+    &lt;li&gt;
+      average registers by datasets
+    &lt;/li&gt;
+    &lt;li&gt;
+      Some range, like min and max time covered in the registers
+    &lt;/li&gt;
+    &lt;li&gt;
+      …
+    &lt;/li&gt;
+    &lt;li&gt;
+      …
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;
+    And then, I wanna see a picture of the whole thing. Can be an static image, can be a tool to filter data, to browse data, to find data; can be anything that helps the user understanding what are the site contents.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    A lot of opendata portals are just online but not growing up too much. When transparency for politicians is just a branding topic, they open the opendata offices and that’s all; not too much budget and not enough opendata spirit.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    &lt;strong&gt;Results: the prehistoric zone&lt;/strong&gt;
+  &lt;/p&gt;
+
+  &lt;div&gt;
+    &lt;a href=&quot;http://commons.wikimedia.org/wiki/File:List_icon.gif&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://commons.wikimedia.org/wiki/File:List_icon.gif&#39;, &#39;&#39;]);&quot;&gt;&lt;img title=&quot;List_icon&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/06/List_icon.gif&quot; alt=&quot;&quot; width=&quot;80&quot; height=&quot;120&quot; /&gt;&lt;/a&gt;simple flat items list, by Father Goose
+  &lt;/div&gt;
+
+  &lt;p&gt;
+    &lt;a href=&quot;http://nualart.cat/wp-content/uploads/2012/06/List_icon.gif&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/wp-content/uploads/2012/06/List_icon.gif&#39;, &#39;\n&#39;]);&quot;&gt;&lt;br /&gt; &lt;/a&gt;Don’t you think that when you search for something, in a search engine, in a directory, in an opendata site, and you get a flat list of items with a non explicit reason for the order you see, is the most obsolete, prehistoric and non sense way to give you an output of resuts? Is not true that ajax and 2.0 concepts are everywhere except in query results? Isn’t that anachronistic?Retrieval Information field advances fast: better results, more efficient techniques, easier multi-archive search  but the visualization of the data results is not advancing. In the specific field of opendata sites this is not different: I can search for a concrete geo dataset from my neighborhood, and maybe I find it, or I can ask for the dataset to the institution. This is ok if I come with a clear idea about what I’m looking for. I would like to be able to browse, filter, and see a representation of the datasets and then let the ideas come out.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    I did some related works, like &lt;a href=&quot;http://nualart.com/area2/index.php&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.com/area2/index.php&#39;, &#39;Area&#39;]);&quot; title=&quot;Area visualization tool&quot;&gt;Area&lt;/a&gt;, trying to show the global view of a database and a simple browser tool.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    &amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_76&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 10 Jun 2012 12:09:16 +0200</pubDate>
+        <link>http://nualart.cat/2012/06/the-urgency-of-visualization-of-opendata-portals/</link>
+        <guid isPermaLink="true">http://nualart.cat/2012/06/the-urgency-of-visualization-of-opendata-portals/</guid>
+        
+        
+        <category>english</category>
+        
+        <category>visualizations</category>
+        
+      </item>
+    
+      <item>
+        <title>Claming Open visualization</title>
+        <description>&lt;h3 id=&quot;missing-freesoftware-environment-in-visualization-world&quot;&gt;Missing freesoftware environment in visualization world&lt;/h3&gt;
+
+&lt;p&gt;I come from freesoftware movement and way-of-using-technology, and from it I passed by freeculture (including free licenses in music and video), freeresearch (since I’m an opensaccess PhD candidate in &lt;a href=&quot;http://uab.cat/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://uab.cat/&#39;, &#39;UAB&#39;]);&quot; title=&quot;AUB&quot;&gt;UAB&lt;/a&gt; and &lt;a href=&quot;http://www.ub.edu/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.ub.edu/&#39;, &#39;UB&#39;]);&quot; title=&quot;UB&quot;&gt;UB&lt;/a&gt; universities). Nowadays, the free or open prefixes have a new fastly popularized new member: opendata.&lt;/p&gt;
+
+&lt;p&gt;Mainly I work in the data visualization field, ussualy trying to create new or semi-new visualization tools. Obviously I use free software as  software for the created tools. Like I use to do with any other software, I publish the code (&lt;a href=&quot;github.com/jaumet&quot; title=&quot;jaumet githib free account&quot;&gt;github&lt;/a&gt;) and the data it uses to be published in the place where the concrete project is hosted.&lt;/p&gt;
+
+&lt;p&gt;Since visualization involves multiple fields of knowledge and it attracts multiple human scopes, I miss an standarized way to publish code + data as a visualization open resource. In this entry I propose a way to do that and also I give a first draft for what I understand for “open visuaization”.&lt;/p&gt;
+
+&lt;h3 id=&quot;interaction-or-saas-is-not-enough&quot;&gt;Interaction or SaaS is not enough&lt;/h3&gt;
+
+&lt;p&gt;Interactive visualizations allows you to use a software, usually, to navigate the data. This looks like more free that an static-image visualizations. In my opinion this is not enough. An interactive visualization for sure is giving the viewer more power to discover using the data or to simply understand the data. If you wanna go further, improving the tool itself, adding data or reusing the tool, you will need more access to the code &amp;amp; data.&lt;/p&gt;
+
+&lt;p&gt;For the same reasons,&lt;a href=&quot;http://en.wikipedia.org/wiki/SaaS&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://en.wikipedia.org/wiki/SaaS&#39;, &#39;SaaS&#39;]);&quot; title=&quot;SaaS in wikipedia&quot;&gt;SaaS&lt;/a&gt; is not a solution for openknwoledge mission. &lt;a href=&quot;http://en.wikipedia.org/wiki/SaaS&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://en.wikipedia.org/wiki/SaaS&#39;, &#39;SaaS&#39;]);&quot; title=&quot;SaaS in wikipedia&quot;&gt;SaaS&lt;/a&gt; is giving the easiest way to use the tool, usually with a browser. But is not making possible to improve, reproduce or experiment with the tool, a web app.&lt;/p&gt;
+
+&lt;h3 id=&quot;open-visualization-or-free-visualization&quot;&gt;Open visualization or free visualization?&lt;/h3&gt;
+
+&lt;p&gt;I understand open as a concept included in free as it is in freesoftware. Data, pure data, don’t really needs all the freedom conditions defined for software code. I’d like to use freedata instead of opendata, but I can accept opendata as the standard.&lt;/p&gt;
+
+&lt;p&gt;Talking about visualization, where code and data have the same weight, open probably is the conceptual limiting and freevisualization maybe induce to give more importantce to the code. A &lt;a href=&quot;https://www.google.com/search?aq=f&amp;amp;sugexp=chrome,mod%3D4&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&amp;amp;q=free+visualization&amp;amp;hl=en&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.google.com/search?aq=f&amp;amp;sugexp=chrome,mod%3D4&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&amp;amp;q=free+visualization&amp;amp;hl=en&#39;, &#39;google search for free visualization&#39;]);&quot; title=&quot;google &amp;quot;free visualization&amp;quot; query&quot;&gt;google search for free visualization&lt;/a&gt; gives you mainly free and non-free software lists and sites.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div id=&quot;attachment_878&quot; style=&quot;width: 277px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+  &lt;img class=&quot;size-full wp-image-878&quot; title=&quot;openvisualization&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/05/openvisualization.png&quot; alt=&quot;&quot; width=&quot;267&quot; height=&quot;50&quot; /&gt;
+
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    open visalization?
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;conditions-for-openvisualization&quot;&gt;&lt;strong&gt;Conditions for openvisualization:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;In order to be able to reproduce a visualization, to copy it, to improve it, to redistributed, to reuse it in other data contexts,…an open visualization work needs to acomplish some conditions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Code conditions: similar to the freesoftware &lt;a href=&quot;http://www.gnu.org/philosophy/free-sw.en.html&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.gnu.org/philosophy/free-sw.en.html&#39;, &#39;GPL licenses.&#39;]);&quot; title=&quot;GPL&quot;&gt;GPL licenses.&lt;/a&gt; According to the 4 degrees of freedom:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;div id=&quot;attachment_879&quot; style=&quot;width: 190px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+    &lt;a href=&quot;http://nualart.cat/wp-content/uploads/2012/05/gnu.png&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/wp-content/uploads/2012/05/gnu.png&#39;, &#39;&#39;]);&quot;&gt;&lt;img class=&quot; wp-image-879 &quot; title=&quot;gnu&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/05/gnu-300x292.png&quot; alt=&quot;&quot; width=&quot;180&quot; height=&quot;175&quot; srcset=&quot;http://nualart.cat/wp-content/uploads/2012/05/gnu-300x292.png 300w, http://nualart.cat/wp-content/uploads/2012/05/gnu-36x36.png 36w, http://nualart.cat/wp-content/uploads/2012/05/gnu.png 672w&quot; sizes=&quot;(max-width: 180px) 100vw, 180px&quot; /&gt;&lt;/a&gt;
+
+    &lt;p class=&quot;wp-caption-text&quot;&gt;
+      GNU is not unix
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;– The freedom to run the program, for any purpose (freedom 0).&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;– The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;– The freedom to redistribute copies so you can help your neighbor (freedom 2).&lt;/em&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;– The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data conditions. since &lt;a href=&quot;http://en.wikipedia.org/wiki/Open_data#Overview&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://en.wikipedia.org/wiki/Open_data#Overview&#39;, &#39;there are no commonly agreed definitions&#39;]);&quot; title=&quot;Opendata - overview from Wikiepedia&quot;&gt;there are no commonly agreed definitions&lt;/a&gt; for open data, the &lt;a href=&quot;http://www.arl.org/sparc/openaccess/why-oa.shtml&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://www.arl.org/sparc/openaccess/why-oa.shtml&#39;, &#39;openaccess SPARK definition&#39;]);&quot; title=&quot;SPARK openaccess definition&quot;&gt;openaccess SPARK definition&lt;/a&gt; can give us a  first approach:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;By Open Access, we mean the free, immediate, availability on the public Internet of those works which scholars give to the world without expectation of payment – permitting any user to read, download, copy, distribute, print, search or link to the full text of these articles, crawl them for indexing, pass them as data to software or use them for any other lawful purpose&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;From &lt;a href=&quot;http://opendefinition.org/okd/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://opendefinition.org/okd/&#39;, &#39;OKFN Open definition&#39;]);&quot; title=&quot;OKFN open definition&quot;&gt;OKFN Open definition&lt;/a&gt; we have:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A piece of content or data is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.”(&lt;a href=&quot;http://opendefinition.org/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://opendefinition.org/&#39;, &#39;*&#39;]);&quot; title=&quot;OKFN open definition short&quot;&gt;*&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div id=&quot;attachment_874&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+  &lt;a href=&quot;http://opendefinition.org/buttons/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://opendefinition.org/buttons/&#39;, &#39;&#39;]);&quot;&gt;&lt;img class=&quot;size-medium wp-image-874&quot; title=&quot;opendefinition-buttons&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/05/opendefinition-buttons-300x95.png&quot; alt=&quot;OKFN Open definitions buttons&quot; width=&quot;300&quot; height=&quot;95&quot; srcset=&quot;http://nualart.cat/wp-content/uploads/2012/05/opendefinition-buttons-300x95.png 300w, http://nualart.cat/wp-content/uploads/2012/05/opendefinition-buttons.png 688w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; /&gt;&lt;/a&gt;
+
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    OKFN Open definitions buttons
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Conditions list:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data must be in open formats&lt;/li&gt;
+  &lt;li&gt;License must allow the edition of the data&lt;/li&gt;
+  &lt;li&gt;License must allow to publish copies of the data&lt;/li&gt;
+  &lt;li&gt;License must allow to republish the modifications of the data in the same or new formats&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;…&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Visualization conditions&lt;/li&gt;
+  &lt;li&gt;The published work must be appropriately &lt;strong&gt;documented&lt;/strong&gt; to ensure that the work is &lt;strong&gt;reproducible&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;The reproduction must be possible at least in a &lt;strong&gt;freesoftware&lt;/strong&gt; OS &amp;amp; apps &lt;strong&gt;context&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;People should be able to calculate or study the &lt;strong&gt;quality&lt;/strong&gt; of the visualization (data quality, data massage &amp;amp; stats quality, representation accuracy, adjustements).&lt;/li&gt;
+  &lt;li&gt;It will be appreciated to attach a context &lt;strong&gt;overview&lt;/strong&gt; of the project itself. An explanation and goals of the project or work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-do-i-expect-in-an-openvisualization-environment&quot;&gt;What do I expect in an openvisualization environment?&lt;/h3&gt;
+
+&lt;p&gt;I expect people who cares for the knowledge you can find in a visualization work. More people using and thinking same tool, improves the tool, specially when a visualization is open. I expect to have associated to the title of a visualization, a note about whether the visualization is open or not. I’m not a fun of the institutional hackatons, but I recognize that an only openvisualizations hackaton or contest will attract me a lot more and will produce open reusable ideas. Specially in a crazy coding spring, typical in hackatons, most of produced works can be more quietly extended improving and reusing them.&lt;/p&gt;
+
+&lt;div style=&quot;width: 310px&quot; class=&quot;wp-caption alignright&quot;&gt;
+  &lt;a href=&quot;http://nualart.cat/wp-content/uploads/2012/05/Dunes.jpg&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/wp-content/uploads/2012/05/Dunes.jpg&#39;, &#39;&#39;]);&quot;&gt;&lt;img style=&quot;margin: 6px;&quot; title=&quot;Dunes&quot; src=&quot;http://nualart.cat/wp-content/uploads/2012/05/Dunes-300x225.jpg&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;225&quot; /&gt;&lt;/a&gt;
+
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Dunes as real 3D graphs
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I see a lot of new startup companies in the visualization and data market. Lot of them era not publishing any code. What they produce is almost secret. Some people of these companies use to attend visualization events and some are part of the communities. This people interchange ideas with others and rarely talks about their commercial secrets. If you wanna see your ideas comercialized after talking with those guys, is ok, this is up to you.In general they learn from a big group of people and produce for an small group of custumers.&lt;/p&gt;
+
+&lt;p&gt;I see some of those companies in opendata events, specially hype opengov ones, where use to be more money. IMHO an opendata event must accept only openvisualization proposals. This is the way , the event or the institution or organization involve in the event, can assure knowledge outputs of the event, and possible future developments.&lt;/p&gt;
+
+&lt;p&gt;In an openvisualization community you would be able to share knowledge, insights and criticism with all kinds of professionals, and produce never-ending ideas.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Related post:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://nualart.cat/2011/07/opendata-notes-on-the-way-to/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/2011/07/opendata-notes-on-the-way-to/&#39;, &#39;#Opendata: notes on the way to (I)&#39;]);&quot; rel=&quot;bookmark&quot;&gt;#Opendata: notes on the way to (I)&lt;/a&gt;: Opendata world is here!&lt;/p&gt;
+
+    &lt;p&gt;(July 2011)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://nualart.cat/2011/09/opendata-notes-on-the-way-to-ii/&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;http://nualart.cat/2011/09/opendata-notes-on-the-way-to-ii/&#39;, &#39;#Opendata: notes on the way to (II)&#39;]);&quot; rel=&quot;bookmark&quot;&gt;#Opendata: notes on the way to (II)&lt;/a&gt;: Opendata and free software(September 2011)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;div class=&quot;addtoany_share_save_container addtoany_content_bottom&quot;&gt;
+  &lt;div class=&quot;a2a_kit a2a_kit_size_32 addtoany_list a2a_target&quot; id=&quot;wpa2a_75&quot;&gt;
+    &lt;a href=&quot;https://www.addtoany.com/share&quot; onclick=&quot;_gaq.push([&#39;_trackEvent&#39;, &#39;outbound-article&#39;, &#39;https://www.addtoany.com/share&#39;, &#39;Share/Comparteix&#39;]);&quot; class=&quot;a2a_dd addtoany_share_save&quot; style=&quot;background:url(http://nualart.cat/wp-content/plugins/add-to-any/share_16_16.png) no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle&quot;&gt;&lt;span&gt;Share/Comparteix&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 27 May 2012 20:21:08 +0200</pubDate>
+        <link>http://nualart.cat/2012/05/open-visualization/</link>
+        <guid isPermaLink="true">http://nualart.cat/2012/05/open-visualization/</guid>
+        
+        
+        <category>comentaris</category>
+        
+        <category>drets/rights</category>
+        
+        <category>english</category>
+        
+        <category>visualizations</category>
+        
+        <category>writings</category>
+        
+      </item>
+    
+  </channel>
+</rss>
