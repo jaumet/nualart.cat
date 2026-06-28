@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect x="0" y="0" width="1024" height="1024" rx="120" fill="#0a0b2c"/>
+
+  <!-- Cercle interior icona -->
+  <circle cx="512" cy="400" r="240" fill="#12144a"/>
+
+  <!-- Ones blaves esquerra -->
+  <path d="M 336 164 Q 176 400 336 636" fill="none" stroke="#89adda" stroke-width="11" stroke-linecap="round" opacity="0.35"/>
+  <path d="M 374 210 Q 250 400 374 590" fill="none" stroke="#89adda" stroke-width="11" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 412 256 Q 330 400 412 544" fill="none" stroke="#89adda" stroke-width="11" stroke-linecap="round" opacity="1"/>
+
+  <!-- Ones taronges dreta -->
+  <path d="M 688 164 Q 848 400 688 636" fill="none" stroke="#fe971e" stroke-width="11" stroke-linecap="round" opacity="0.35"/>
+  <path d="M 650 210 Q 774 400 650 590" fill="none" stroke="#fe971e" stroke-width="11" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 612 256 Q 694 400 612 544" fill="none" stroke="#fe971e" stroke-width="11" stroke-linecap="round" opacity="1"/>
+
+  <!-- Punt central tap -->
+  <circle cx="512" cy="400" r="70" fill="#fe971e"/>
+  <circle cx="512" cy="400" r="30" fill="#0a0b2c"/>
+
+  <!-- Text -->
+  <text x="512" y="760" font-family="Arial, sans-serif" font-size="144" font-weight="700" fill="#ffffff" letter-spacing="-3" text-anchor="middle">Tap<tspan fill="#fe971e">Band</tspan></text>
+</svg>
