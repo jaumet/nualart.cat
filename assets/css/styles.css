@@ -282,7 +282,7 @@ h1 {
 
 .project-card {
   position: relative;
-  grid-column: span 4;
+  grid-column: span 6;
   min-height: 390px;
   display: flex;
   flex-direction: column;
@@ -313,7 +313,7 @@ h1 {
 }
 
 .project-card.featured {
-  grid-column: span 8;
+  grid-column: 1 / -1;
 }
 
 .project-card::before {
