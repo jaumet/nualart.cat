@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[77916,["/pair/_next/static/chunks/0b-.ij0mqhtov.js"],"ViewportBoundary"]
+3:I[77916,["/pair/_next/static/chunks/0b-.ij0mqhtov.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[86593,["/pair/_next/static/chunks/0b-.ij0mqhtov.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"pAIr — construir amb IA, plegats"}],["$","meta","1",{"name":"description","content":"pAIr adapta el pair programming: dues persones desenvolupen un projecte real amb la IA com a eina principal. Sessions guiades per nualart.cat."}],["$","meta","2",{"name":"codex-preview","content":"development"}],["$","link","3",{"rel":"shortcut icon","href":"/pair/favicon.svg"}],["$","link","4",{"rel":"icon","href":"/pair/favicon.svg"}],["$","$L5","5",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"9UVxR8ktqHeUaWrauxsxV"}
