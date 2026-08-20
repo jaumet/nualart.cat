@@ -215,6 +215,15 @@ h1 {
   text-shadow: 0 0 32px rgba(113,112,255,.32);
 }
 
+.hero-reflection {
+  display: block;
+  max-width: 860px;
+  margin-top: .8em;
+  padding-left: 1em;
+  border-left: 2px solid color-mix(in srgb, var(--brand), white 14%);
+  color: var(--brand);
+}
+
 .hero-copy {
   max-width: 760px;
   margin-bottom: 34px;
