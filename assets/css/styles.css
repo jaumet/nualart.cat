@@ -146,6 +146,11 @@ a {
   background: rgba(255,255,255,.045);
 }
 
+.top-nav a[aria-current="page"] {
+  color: var(--text);
+  background: rgba(255,255,255,.07);
+}
+
 .hero,
 .projects-section,
 .site-footer {
@@ -344,13 +349,6 @@ h1 {
   opacity: 1;
 }
 
-.card-index {
-  margin-bottom: 18px;
-  color: color-mix(in srgb, var(--accent), white 18%);
-  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 12px;
-}
-
 .project-visual {
   display: flex;
   align-items: center;
@@ -360,9 +358,9 @@ h1 {
   margin-bottom: 34px;
   border: 1px solid rgba(255,255,255,.09);
   border-radius: 24px;
-  background:
+  background: var(--logo-bg,
     radial-gradient(circle at 30% 0%, color-mix(in srgb, var(--accent), transparent 76%), transparent 70%),
-    rgba(255,255,255,.045);
+    rgba(255,255,255,.045));
   box-shadow:
     inset 0 1px 0 rgba(255,255,255,.10),
     0 18px 48px rgba(0,0,0,.24);
@@ -494,7 +492,7 @@ h1 {
     width: min(100% - 24px, var(--max-width));
   }
 
-  .top-nav {
+  .top-nav .primary-nav-link {
     display: none;
   }
 
@@ -521,10 +519,6 @@ h1 {
     grid-column: 1 / -1;
     min-height: 360px;
     padding: 20px;
-  }
-
-  .card-index {
-    margin-bottom: 16px;
   }
 
   .project-visual,

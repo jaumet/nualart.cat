@@ -4,12 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jaume Nualart — Projectes</title>
-  <meta name="description" content="Projectes principals de Jaume Nualart: recerca, intel·ligència artificial, audiollibres, aprenentatge d'idiomes, exercicis educatius, música interactiva i curació de continguts.">
+  <meta name="description" content="Projectes principals de Jaume Nualart: recerca, intel·ligència artificial, transparència digital, audiollibres, aprenentatge d'idiomes, exercicis educatius, música interactiva i curació de continguts.">
   <meta name="theme-color" content="#08090a">
   <meta property="og:title" content="Jaume Nualart — Projectes">
   <meta property="og:description" content="Una selecció de projectes publicats de Jaume Nualart.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://nunalart.cat/">
+  <meta property="og:url" content="https://nualart.cat/">
+  <link rel="alternate" hreflang="ca" href="https://nualart.cat/">
+  <link rel="alternate" hreflang="en" href="https://nualart.cat/en/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
@@ -28,20 +30,21 @@
       <span>nualart.cat</span>
     </a>
     <nav class="top-nav" aria-label="Principal">
-      <a href="#projectes">Projectes</a>
-      <a href="https://research.nualart.cat" rel="noopener">Recerca</a>
+      <a class="primary-nav-link" href="#projectes">Projectes</a>
+      <a class="primary-nav-link" href="https://research.nualart.cat" rel="noopener">Recerca</a>
+      <a href="./" lang="ca" aria-current="page">CA</a>
+      <a href="en/" lang="en">EN</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" aria-label="Presentació dels projectes">
-      <p class="hero-statement">Una selecció de projectes (2026): visualització de dades, intel·ligència artificial, audiollibres tangibles, aprenentatge d’idiomes, exercicis educatius, música interactiva i continguts escollits per humans.</p>
+      <p class="hero-statement">Una selecció de projectes (2026): visualització de dades, intel·ligència artificial, transparència digital, audiollibres tangibles, aprenentatge d’idiomes, exercicis educatius, música interactiva i continguts escollits per humans.</p>
     </section>
 
     <section class="projects-section" id="projectes" aria-label="Projectes principals">
       <div class="projects-grid">
         <article class="project-card featured" style="--accent:#8b8cff" data-project-card>
-          <div class="card-index">01</div>
           <div class="project-visual project-visual-photo">
             <img src="assets/img/jaume-foto.jpg" alt="Jaume Nualart">
           </div>
@@ -57,8 +60,7 @@
         </article>
 
         <article class="project-card" style="--accent:#67e8f9" data-project-card>
-          <div class="card-index">02</div>
-          <div class="project-visual">
+          <div class="project-visual" style="--logo-bg:#11143e">
             <img src="assets/img/logo-audiovook.svg" alt="Audiovook.com">
           </div>
           <p class="project-kicker">Audiollibres · Cultura digital</p>
@@ -73,8 +75,7 @@
         </article>
 
         <article class="project-card" style="--accent:#a7f3d0" data-project-card>
-          <div class="card-index">03</div>
-          <div class="project-visual">
+          <div class="project-visual" style="--logo-bg:#0d0e37">
             <img src="assets/img/logo-dual.svg" alt="Dual.cat">
           </div>
           <p class="project-kicker">Idiomes · Narrativa · Escolta</p>
@@ -89,8 +90,7 @@
         </article>
 
         <article class="project-card" style="--accent:#f0abfc" data-project-card>
-          <div class="card-index">04</div>
-          <div class="project-visual">
+          <div class="project-visual" style="--logo-bg:#0a0b2c">
             <img src="assets/img/logo-tapband.svg" alt="Tapband Android App">
           </div>
           <p class="project-kicker">Música · Interacció · Web</p>
@@ -105,8 +105,7 @@
         </article>
 
         <article class="project-card" style="--accent:#fbbf24" data-project-card>
-          <div class="card-index">05</div>
-          <div class="project-visual">
+          <div class="project-visual" style="--logo-bg:#0d0e37">
             <img src="assets/img/logo-selectora.svg" alt="Selectora.cc">
           </div>
           <p class="project-kicker">Curació · Canals · Coneixement</p>
@@ -120,9 +119,23 @@
           <a class="project-link" href="https://selectora.cc" rel="noopener">Obrir selectora.cc <span aria-hidden="true">↗</span></a>
         </article>
 
+        <article class="project-card" style="--accent:#ff7657" data-project-card>
+          <div class="project-visual" style="--logo-bg:#ffffff">
+            <img src="assets/img/ai-main-logo-of-the-project.png" alt="AI USE: DECLARED">
+          </div>
+          <p class="project-kicker">Intel·ligència artificial · Transparència · Estàndards</p>
+          <h3>AI USE: DECLARED</h3>
+          <p>Un sistema obert d’insígnies per declarar de manera clara com s’ha utilitzat la IA en un web o projecte, amb certificats i un registre públic verificable.</p>
+          <div class="project-tags" aria-label="Etiquetes">
+            <span>AI disclosure</span>
+            <span>Badges</span>
+            <span>Transparency</span>
+          </div>
+          <a class="project-link" href="https://ai.selectora.cc/" rel="noopener">Obrir AI USE: DECLARED <span aria-hidden="true">↗</span></a>
+        </article>
+
         <article class="project-card" style="--accent:#fb7185" data-project-card>
-          <div class="card-index">06</div>
-          <div class="project-visual">
+          <div class="project-visual" style="--logo-bg:#0d0e37">
             <img src="assets/img/logo_pimpamtest.png" alt="PimPamTest">
           </div>
           <p class="project-kicker">Educació · Exercicis · Joc</p>
@@ -137,8 +150,7 @@
         </article>
 
         <article class="project-card" style="--accent:#68c4ff" data-project-card>
-          <div class="card-index">07</div>
-          <div class="project-visual">
+          <div class="project-visual" style="--logo-bg:#3a2200">
             <img src="assets/img/pair-logo.png" alt="pAIr">
           </div>
           <p class="project-kicker">Intel·ligència artificial · Col·laboració · Projectes</p>
