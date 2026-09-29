@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cancerpitalism · Catàleg de diagrames</title>
+<script>try{var t=localStorage.getItem("cancerpitalism:theme")}catch(e){}document.documentElement.dataset.theme=new URLSearchParams(location.search).get("tema")||t||"light";</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="src/styles.css" />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<style>
+  body{padding:2rem;padding-top:5.5rem}
+  .catalog-bar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.8rem 2rem;background:color-mix(in srgb,var(--paper) 92%,transparent);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+  .catalog-bar a{font:500 .72rem "DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--ink)}
+  .catalog-bar .top-actions{display:flex;gap:.5rem}
+  h1{font:400 3rem/1 var(--serif);margin:0 0 .5rem}
+  .intro-note{font:400 .8rem/1.5 "DM Mono",monospace;color:var(--muted);max-width:70ch;margin-bottom:2rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem}
+  figure{margin:0;border:1px solid var(--line);padding:.8rem;background:var(--paper)}
+  figure svg{width:100%;height:auto;display:block}
+  figcaption{font:400 .72rem/1.4 "DM Mono",monospace}
+  figcaption b{display:block;font-size:.8rem;margin-bottom:.2rem}
+  figcaption i{display:block;color:var(--muted);font-style:normal;margin-top:.3rem}
+  @media(max-width:600px){body{padding:1rem;padding-top:5rem}.catalog-bar{padding:.7rem 1rem}}
+</style>
+</head>
+<body>
+<header class="catalog-bar"><a class="brand cp-brand" href="./" aria-label="Obrir el llibre"><svg class="cp-symbol" viewBox="0 0 310 300" aria-hidden="true" focusable="false"><circle class="cp-ink" cx="224.3" cy="50.5" r="5.7"/><circle class="cp-ink" cx="170.5" cy="19.5" r="7.2"/><circle class="cp-ink" cx="108.5" cy="19.5" r="9.3"/><circle class="cp-ink" cx="54.6" cy="50.5" r="11.8"/><circle class="cp-ink" cx="23.5" cy="104.4" r="14.8"/><circle class="cp-ink" cx="23.6" cy="166.6" r="17.8"/><circle class="cp-ink" cx="54.6" cy="220.4" r="21.4"/><circle class="cp-red" cx="108.4" cy="251.5" r="25.3"/><circle class="cp-red" cx="170.5" cy="251.4" r="30.5"/><circle class="cp-red" cx="224.4" cy="220.4" r="34.0"/><circle class="cp-red" cx="276.0" cy="177.5" r="10.4"/><circle class="cp-red" cx="295.5" cy="144.6" r="5.1"/></svg><span class="cp-text"><span class="cp-title"><span class="cp-red-text">Cancer</span>pitalism</span><span class="cp-subtitle">Créixer per créixer</span></span></a><div class="top-actions"></div></header>
+<h1>Catàleg de diagrames</h1>
+<p class="intro-note">Els 76 diagrames centrals del llibre. Sota cada un: el títol del node, el missatge central i la descripció del dibuix.</p>
+<div class="grid" id="grid"></div>
+<script type="module">
+  import { translateDom, mountLangSwitch } from "./src/i18n.js";
+  import { loadToc } from "./src/toc-loader.js";
+  import { DIAGRAM_SPECS } from "./src/diagram-specs.js";
+  import { renderDiagram, DEFS } from "./src/diagrams.js";
+  import { renderIllustration } from "./src/illustrations.js";
+  translateDom();
+  mountLangSwitch(document.querySelector(".top-actions"));
+  const book = await loadToc();
+  document.querySelector("#grid").innerHTML = book.nodes.map((node, i) => `<figure><svg id="growth-system" viewBox="0 0 800 800" role="img" aria-label="${node.diagram}">${DEFS}${renderIllustration(node.order) || renderDiagram(DIAGRAM_SPECS[i])}</svg><figcaption><b>${String(node.order).padStart(2,"0")} · ${node.title}</b>${node.center.text}<i>${node.diagram}</i></figcaption></figure>`).join("");
+  document.body.dataset.ready = "1";
+</script>
+</body>
+</html>

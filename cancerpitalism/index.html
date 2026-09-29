@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ebe7df" />
+    <meta name="description" content="Cancerpitalism — un llibre digital sobre creixement, cos i sistema." />
+    <title>Cancerpitalism · Mapa del llibre</title>
+    <script>try{var t=localStorage.getItem("cancerpitalism:theme")}catch(e){}document.documentElement.dataset.theme=t||document.documentElement.dataset.theme||"dark";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#story">Saltar al relat</a>
+    <header class="topbar">
+      <a class="brand cp-brand" href="#introduccio" aria-label="Cancerpitalism, inici"><svg class="cp-symbol" viewBox="0 0 310 300" aria-hidden="true" focusable="false"><circle class="cp-ink" cx="224.3" cy="50.5" r="5.7"/><circle class="cp-ink" cx="170.5" cy="19.5" r="7.2"/><circle class="cp-ink" cx="108.5" cy="19.5" r="9.3"/><circle class="cp-ink" cx="54.6" cy="50.5" r="11.8"/><circle class="cp-ink" cx="23.5" cy="104.4" r="14.8"/><circle class="cp-ink" cx="23.6" cy="166.6" r="17.8"/><circle class="cp-ink" cx="54.6" cy="220.4" r="21.4"/><circle class="cp-red" cx="108.4" cy="251.5" r="25.3"/><circle class="cp-red" cx="170.5" cy="251.4" r="30.5"/><circle class="cp-red" cx="224.4" cy="220.4" r="34.0"/><circle class="cp-red" cx="276.0" cy="177.5" r="10.4"/><circle class="cp-red" cx="295.5" cy="144.6" r="5.1"/></svg><span class="cp-text"><span class="cp-title"><span class="cp-red-text">Cancer</span>pitalism</span><span class="cp-subtitle">Créixer per créixer</span></span></a>
+      <div class="toc-menu" id="toc-menu">
+        <button class="chapter-mark" id="current-chapter" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="toc-panel" title="Índex del llibre"><span class="toc-num">00</span><span class="toc-label">Pròleg</span><b class="toc-caret" aria-hidden="true">▾</b></button>
+        <nav class="toc-panel" id="toc-panel" aria-label="Índex del llibre" hidden></nav>
+      </div>
+      <div class="top-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-pressed="true" aria-label="Canviar entre tema fosc i clar"><span aria-hidden="true">●</span> Fosc</button>
+        <div class="view-switch" aria-label="Vista del llibre">
+          <button class="icon-button active" id="index-toggle" aria-pressed="true" aria-expanded="true" aria-controls="chapter-index">Mapa</button>
+          <div class="reading-menu">
+            <button class="icon-button" id="mode-toggle" aria-pressed="false" aria-haspopup="menu" aria-expanded="false">Lectura</button>
+            <div class="reading-options" role="menu" aria-label="Mode de lectura">
+              <button id="story-mode" role="menuitemradio" aria-checked="false">Scrollytelling</button>
+              <button id="rich-mode" role="menuitemradio" aria-checked="false">Rich Text</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+    </header>
+
+    <nav class="chapter-index" id="chapter-index" aria-label="Mapa del capítol" aria-describedby="index-note" tabindex="0">
+      <div class="index-head"><p>Capítol 01</p><button id="index-close" aria-label="Tancar índex">×</button></div>
+      <h2>Cancerpitalism</h2>
+      <p class="map-subtitle">Un mapa per navegar entre allò que creix, allò que limita i el conjunt que ho sosté.</p>
+      <div class="category-legend" id="category-legend" aria-label="Categories del llibre"></div>
+      <div class="network-index" id="network-index" aria-label="Xarxa de nodes del capítol">
+        <svg class="network-lines" id="network-lines" aria-hidden="true"></svg>
+        <ol id="index-list"></ol>
+      </div>
+      <p class="index-note" id="index-note">Arrossega per explorar · fletxes per navegar · Enter per obrir</p>
+      <div class="map-zoom" aria-label="Controls de zoom">
+        <button id="zoom-out" aria-label="Allunyar el mapa">−</button>
+        <output id="zoom-level" aria-live="polite">100%</output>
+        <button id="zoom-in" aria-label="Apropar el mapa">+</button>
+        <button id="zoom-reset" aria-label="Encaixar tot el mapa a la pantalla">⊙</button>
+      </div>
+    </nav>
+    <button class="back-to-map" id="back-to-map" hidden><span>←</span> Tornar al mapa</button>
+
+    <main id="story">
+      <section class="intro" id="introduccio" aria-labelledby="intro-title">
+        <p class="eyebrow">Llibre digital · 76 nodes · càncer i capitalisme</p>
+        <div class="cover-lockup"><svg class="cp-symbol" viewBox="0 0 310 300" aria-hidden="true" focusable="false"><circle class="cp-ink" cx="224.3" cy="50.5" r="5.7"/><circle class="cp-ink" cx="170.5" cy="19.5" r="7.2"/><circle class="cp-ink" cx="108.5" cy="19.5" r="9.3"/><circle class="cp-ink" cx="54.6" cy="50.5" r="11.8"/><circle class="cp-ink" cx="23.5" cy="104.4" r="14.8"/><circle class="cp-ink" cx="23.6" cy="166.6" r="17.8"/><circle class="cp-ink" cx="54.6" cy="220.4" r="21.4"/><circle class="cp-red" cx="108.4" cy="251.5" r="25.3"/><circle class="cp-red" cx="170.5" cy="251.4" r="30.5"/><circle class="cp-red" cx="224.4" cy="220.4" r="34.0"/><circle class="cp-red" cx="276.0" cy="177.5" r="10.4"/><circle class="cp-red" cx="295.5" cy="144.6" r="5.1"/></svg><div class="cp-text"><h1 id="intro-title" class="cp-title"><span class="cp-red-text">Cancer</span>pitalism</h1><p class="cp-subtitle">Créixer per créixer</p></div></div>
+        <div class="intro-copy">
+          <p class="intro-lead">El càncer creix sense cap finalitat que no sigui continuar creixent. El capitalisme, també. El càncer ja ha demostrat com acaba. Aquest llibre compara els dos mecanismes, pas a pas, amb la biologia i l’economia a la mà.</p>
+          <section class="cover-reading" aria-labelledby="cover-reading-title">
+            <p class="eyebrow">Com llegir aquest llibre</p>
+            <h2 id="cover-reading-title">Cancerpitalism és un llibre construït en nodes.</h2>
+            <ol class="cover-principles">
+              <li><small>01</small><strong id="book-structure">76 nodes</strong><span>distribuïts en <b id="book-chapters">16 capítols</b>.</span></li>
+              <li><small>02</small><strong>Una idea a cada node</strong><span>Una frase que val alhora per al càncer i per al capitalisme, una pregunta i una resposta breu.</span></li>
+              <li><small>03</small><strong>Diverses maneres de llegir</strong><span>Tria una d’aquestes tres formes d’entrar al llibre.</span></li>
+            </ol>
+            <div class="cover-reading-options">
+              <button data-cover-view="map"><strong>Mapa</strong><span>Explora els nodes, capítols i connexions del llibre.</span></button>
+              <button data-cover-view="story"><strong>Narració</strong><span>Avança amb l’scroll mentre text, imatge i moviment construeixen el relat.</span><small>Scrollytelling</small></button>
+              <button data-cover-view="rich"><strong>Text</strong><span>Llegeix tot el contingut de manera seguida i lineal.</span><small>Rich Text</small></button>
+            </div>
+          </section>
+          <section class="cover-geography" aria-labelledby="cover-geography-title">
+            <div class="legend" aria-label="Geografia del relat">
+              <span class="legend-left">← capitalisme</span>
+              <i></i><span class="legend-right">càncer →</span><span class="legend-south">↓ límits i fonts</span>
+            </div>
+            <div class="cover-geography-copy">
+              <p class="eyebrow">Com funciona un node</p>
+              <h2 id="cover-geography-title">Una idea, dues lectures.</h2>
+              <p>Cada node conté una idea que val per al càncer i per al capitalisme. Per això, al text hi veuràs simplement una <strong>«C»</strong>. Sota la idea hi ha dues columnes: a l’esquerra, el mecanisme econòmic; a la dreta, el mecanisme biològic. A sota, els límits de la comparació i les fonts de cada afirmació.</p>
+            </div>
+          </section>
+        </div>
+        <p class="scroll-cue">Desplaça’t per començar <span>↓</span></p>
+      </section>
+
+      <section class="story-shell" aria-label="Relat interactiu">
+        <div class="visual-stage" id="visual-stage">
+          <div class="visual-meta"><span id="visual-chapter">Pròleg</span><span id="visual-count">Node 01 de 76</span></div>
+          <svg id="growth-system" viewBox="0 0 800 800" role="img" aria-labelledby="visual-title visual-desc">
+            <title id="visual-title">Sistema de creixement</title>
+            <desc id="visual-desc">Una xarxa abstracta canvia entre cooperació, acumulació, límits i equilibri segons el node actiu.</desc>
+            <circle class="boundary boundary-outer" cx="400" cy="400" r="280" />
+            <circle class="boundary boundary-inner" cx="400" cy="400" r="190" />
+            <g id="connections"></g><g id="particles"></g>
+            <circle class="core-halo" cx="400" cy="400" r="58" />
+            <circle class="core" cx="400" cy="400" r="22" />
+          </svg>
+          <p class="visual-caption" id="visual-caption">Cooperació · regulació · límit</p>
+        </div>
+        <div class="story-steps" id="story-steps"></div>
+      </section>
+
+      <section class="outro">
+        <p class="eyebrow">Epíleg · Fi del recorregut</p>
+        <blockquote>El càncer ja ha respost.<br />El capitalisme, encara no.</blockquote>
+        <button id="restart">Tornar al principi ↑</button>
+      </section>
+    </main>
+
+    <div class="face-layer" id="face-layer" hidden>
+      <div class="face-backdrop" data-close-face></div>
+      <article class="face-panel" id="face-panel" role="dialog" aria-modal="true" aria-labelledby="face-title" tabindex="-1">
+        <button class="face-close" data-close-face aria-label="Tornar al centre">×</button>
+        <p class="face-direction" id="face-direction"></p>
+        <p class="face-relation" id="face-relation"></p>
+        <h2 id="face-title"></h2>
+        <div id="face-text"></div>
+        <footer><span id="face-node"></span><button data-close-face>Tornar al centre</button></footer>
+      </article>
+    </div>
+
+    <div class="sr-only" id="announcer" aria-live="polite"></div>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
