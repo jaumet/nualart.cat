@@ -104,7 +104,7 @@ const UI_EN = {
   "Índex del llibre": "Table of contents",
   "Índex": "Contents",
   "Salta a qualsevol node. Et quedes en el mode de lectura on ets.": "Jump to any node. You stay in the reading mode you are in.",
-  "Cancerpitalism · Mapa del llibre": "Cancerpitalism · Book map",
+  "Cancerpitalism · Créixer per créixer": "Cancerpitalism · Growth for growth’s sake",
   "Cancerpitalism · Catàleg de diagrames": "Cancerpitalism · Diagram catalogue",
   "← Esquerra": "← Left",
   "Dreta →": "Right →",
