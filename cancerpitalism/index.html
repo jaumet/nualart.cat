@@ -137,6 +137,37 @@
       </section>
     </main>
 
+    <footer class="site-footer">
+      <p class="site-credit">Idea i coedició: Nu a l'art i IA.</p>
+      <p class="site-credit site-credit-map">El mapa és un projecte d'<a href="https://github.com/eylommaayan" target="_blank" rel="noopener">EylonMaayan</a>: <a href="https://github.com/eylommaayan/Gsap-Public" target="_blank" rel="noopener">Gsap-Public</a>.</p>
+      <div class="aiud-widget" style="position:relative;display:inline-block;color:#0d0e37;font:14px/1.4 system-ui,sans-serif">
+        <style>
+          @keyframes aiud-nudge{0%,100%{transform:translateY(0) rotate(3deg)}50%{transform:translateY(-3px) rotate(3deg)}}
+          .aiud-widget .aiud-ribbon{position:absolute;z-index:2;right:-12px;top:-13px;padding:4px 9px;border-radius:999px;background:#f7836a;color:#0d0e37;font-size:9px;font-weight:900;letter-spacing:.08em;box-shadow:0 4px 10px #0d0e3730;animation:aiud-nudge 1.4s ease-in-out infinite;pointer-events:none}
+          .aiud-widget .aiud-details{position:absolute;z-index:2147483647;left:0;bottom:calc(100% + 9px);visibility:hidden;opacity:0;transform:translateY(5px);width:min(370px,90vw);box-sizing:border-box;padding:15px;border:1px solid #d5d5dc;border-radius:11px;background:#fff;box-shadow:0 18px 45px #0d0e3728;transition:.18s ease;pointer-events:none}
+          .aiud-widget:hover .aiud-details,.aiud-widget:focus-within .aiud-details{visibility:visible;opacity:1;transform:none;pointer-events:auto}
+          @media(prefers-reduced-motion:reduce){.aiud-widget .aiud-ribbon{animation:none}}
+        </style>
+        <button type="button" aria-describedby="aiud-details" style="position:relative;display:flex;align-items:center;gap:9px;width:max-content;max-width:100%;padding:7px 10px 7px 7px;border:1px solid #d5d5dc;border-radius:8px;background:#fff;color:#0d0e37;font:inherit;text-align:left;cursor:pointer;box-shadow:0 4px 12px #0d0e3712">
+          <span class="aiud-ribbon" aria-hidden="true">HOVER / TAP</span>
+          <span style="width:42px;height:42px;flex:0 0 42px;overflow:hidden;border-radius:50%"><img src="https://ai.selectora.cc/static/images/ai-use-declared-logo.png" alt="" style="display:block;width:100%;height:100%;object-fit:cover"></span>
+          <strong style="letter-spacing:.03em">AI USE DECLARED<small style="display:block;color:#66677d;font-size:10px;letter-spacing:0">See how this site uses AI</small></strong>
+        </button>
+        <div class="aiud-details" id="aiud-details" role="tooltip">
+          <p style="margin:0 0 10px"><strong>This site</strong> declares its use of AI as:</p>
+          <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px">
+            <img src="https://ai.selectora.cc/static/badges/primary/01-ai-made.png" alt="AI-MADE: AI use disclosure badge" loading="lazy" style="display:block;width:100%;height:auto;grid-column:1/-1">
+            <img src="https://ai.selectora.cc/static/badges/secondary/01-human-reviewed.png" alt="HUMAN-REVIEWED: AI use disclosure badge" loading="lazy" style="display:block;width:100%;height:auto">
+            <img src="https://ai.selectora.cc/static/badges/secondary/02-ai-translated.png" alt="AI-TRANSLATED: AI use disclosure badge" loading="lazy" style="display:block;width:100%;height:auto">
+            <img src="https://ai.selectora.cc/static/badges/secondary/05-ai-generated-code.png" alt="AI-GENERATED CODE: AI use disclosure badge" loading="lazy" style="display:block;width:100%;height:auto">
+            <img src="https://ai.selectora.cc/static/badges/secondary/07-ai-generated-text.png" alt="AI-GENERATED TEXT: AI use disclosure badge" loading="lazy" style="display:block;width:100%;height:auto">
+          </div>
+          <a href="https://ai.selectora.cc/badges/" target="_blank" rel="noopener" style="display:block;margin-top:10px;color:#0d0e37;font-size:11px;font-weight:800">What does this mean? →</a>
+        </div>
+      </div>
+    </footer>
+
+
     <div class="face-layer" id="face-layer" hidden>
       <div class="face-backdrop" data-close-face></div>
       <article class="face-panel" id="face-panel" role="dialog" aria-modal="true" aria-labelledby="face-title" tabindex="-1">

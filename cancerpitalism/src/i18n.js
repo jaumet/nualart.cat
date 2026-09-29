@@ -100,6 +100,8 @@ const UI_EN = {
   "Tornar al principi ↑": "Back to the start ↑",
   "Tornar al centre": "Back to the centre",
   "Llengua": "Language",
+  "El mapa és un projecte d'": "The map is a project by ",
+  "Idea i coedició: Nu a l'art i IA.": "Idea and co-editing: Nu a l'art and IA.",
   "Créixer per créixer": "Growth for growth’s sake",
   "Índex del llibre": "Table of contents",
   "Índex": "Contents",

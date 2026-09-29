@@ -217,3 +217,18 @@
 @media(max-width:1100px){.brand.cp-brand .cp-subtitle{display:none}}
 @media(max-width:900px){.brand.cp-brand .cp-text{display:none}.brand.cp-brand .cp-symbol{width:30px}}
 @media(max-width:760px){.cover-lockup{margin:6vh 0 4vh}.intro .cover-lockup h1.cp-title{font-size:7.2vw}}
+
+/* ── Peu de pàgina: crèdits i declaració d’ús d’IA ── */
+.site-footer{display:flex;flex-direction:column;align-items:center;gap:1.2rem;padding:3rem max(16px,5vw) 4rem;border-top:1px solid var(--line);text-align:center;background:var(--paper)}
+.site-footer .site-credit{margin:0;font:400 .8rem/1.5 "IBM Plex Mono","DM Mono",monospace;letter-spacing:.06em;color:var(--cp-muted,var(--muted))}
+.site-footer .ai-use-declared{width:100%;text-align:left}
+.linear-mode .site-footer,.site-footer{position:relative;z-index:1}
+/* El widget AI USE DECLARED és al centre del peu: el desplegable s’hi centra perquè no surti de la pantalla en mòbil. */
+.site-footer .aiud-widget .aiud-details{left:50%;transform:translate(-50%,5px);text-align:left}
+.site-footer .aiud-widget:hover .aiud-details,.site-footer .aiud-widget:focus-within .aiud-details{transform:translate(-50%,0)}
+.site-footer .aiud-widget{margin-top:.6rem}
+.site-footer .site-credit a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.site-footer .site-credit-map{margin-top:-.6rem;font-size:.72rem}
+.category-legend .map-credit{margin:.3rem .4rem .2rem;padding-top:.6rem;border-top:1px solid rgba(255,255,255,.14);font:400 .66rem/1.5 "IBM Plex Mono","DM Mono",monospace;letter-spacing:.03em;color:#cfc9bd}
+.category-legend .map-credit a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.chapter-index .category-legend .map-credit a{display:inline;grid-template-columns:none;gap:0;padding:0;border:0;font:inherit;color:#fff;text-decoration:underline;text-underline-offset:3px}

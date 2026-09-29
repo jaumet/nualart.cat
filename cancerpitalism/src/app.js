@@ -34,7 +34,7 @@ setTheme(document.documentElement.dataset.theme);
 const steps = document.querySelector("#story-steps");
 const indexList = document.querySelector("#index-list");
 const index = document.querySelector("#chapter-index");
-document.querySelector("#category-legend").innerHTML=chapter.categories.map(category=>`<button class="legend-category" data-legend-category="${category.id}" style="--category-color:${category.color}"><i></i><span><b>${category.label}</b><strong>${category.title}</strong></span></button>`).join("");
+document.querySelector("#category-legend").innerHTML=chapter.categories.map(category=>`<button class="legend-category" data-legend-category="${category.id}" style="--category-color:${category.color}"><i></i><span><b>${category.label}</b><strong>${category.title}</strong></span></button>`).join("")+`<p class="map-credit">${t("El mapa és un projecte d'")}<a href="https://github.com/eylommaayan" target="_blank" rel="noopener">EylonMaayan</a>: <a href="https://github.com/eylommaayan/Gsap-Public" target="_blank" rel="noopener">Gsap-Public</a>.</p>`;
 const faceLayer = document.querySelector("#face-layer");
 const facePanel = document.querySelector("#face-panel");
 let activeNode = chapter.nodes[0];
