@@ -6,6 +6,7 @@ import { DIAGRAM_SPECS } from "./diagram-specs.js";
 import { renderDiagram, DEFS } from "./diagrams.js";
 import { renderIllustration } from "./illustrations.js";
 import { lang, t, translateDom, mountLangSwitch, takePendingOrder } from "./i18n.js";
+import { MEDIA_BASE, createListen, listenHashId, consumeListenTrack, rememberListenTrack } from "./listen.js";
 
 gsap.registerPlugin(ScrollTrigger);
 const store = {
@@ -18,8 +19,14 @@ translateDom();
 const pdfDownload = document.querySelector("[data-pdf-download]");
 if (pdfDownload) {
   const filename = `cancerpitalism-${lang}.pdf`;
-  pdfDownload.href = `pdf/${filename}`;
+  pdfDownload.href = `${MEDIA_BASE}pdf/${filename}`;
   pdfDownload.download = filename;
+}
+const epubDownload = document.querySelector("[data-epub-download]");
+if (epubDownload) {
+  const filename = `cancerpitalism-${lang}.epub`;
+  epubDownload.href = `${MEDIA_BASE}epub/${filename}`;
+  epubDownload.download = filename;
 }
 const chapter = await loadToc();
 document.querySelector("#book-structure").textContent=`${chapter.nodes.length} ${t("nodes")}`;
@@ -34,7 +41,14 @@ function setTheme(theme) {
   themeToggle.setAttribute("aria-pressed",String(dark));
   themeToggle.innerHTML=`<span aria-hidden="true">${dark?"●":"○"}</span> ${dark?t("Fosc"):t("Clar")}`;
 }
-mountLangSwitch(document.querySelector(".top-actions"), () => (coverActive ? null : activeNode?.order));
+const listen = createListen({ lang, t, reduceMotion, nodes: chapter.nodes });
+mountLangSwitch(document.querySelector(".top-actions"), () => {
+  if (document.body.classList.contains("listen-mode")) {
+    rememberListenTrack(listen.currentId());
+    return listen.currentNodeOrder();
+  }
+  return coverActive ? null : activeNode?.order;
+});
 themeToggle.onclick=()=>setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark");
 setTheme(document.documentElement.dataset.theme);
 const steps = document.querySelector("#story-steps");
@@ -145,11 +159,11 @@ function setVisual(node, immediate = false) {
   document.querySelector("#visual-chapter").textContent = node.chapterTitle;
   updateChapterMark(node);
   document.querySelector("#visual-caption").textContent = `${String(node.order).padStart(2,"0")} · ${node.title}`;
-  if(index.hidden&&!coverActive) history.replaceState({ node:node.id }, "", `#${node.id}`);
+  if(index.hidden&&!coverActive&&!document.body.classList.contains("listen-mode")) history.replaceState({ node:node.id }, "", `#${node.id}`);
 }
 
 document.querySelectorAll(".story-step").forEach((step, i) => {
-  ScrollTrigger.create({ trigger:step, start:"top 55%", end:"bottom 45%", onEnter:()=>setVisual(chapter.nodes[i]), onEnterBack:()=>setVisual(chapter.nodes[i]) });
+  ScrollTrigger.create({ trigger:step, start:"top 55%", end:"bottom 45%", onEnter:()=>{ if(!document.body.classList.contains("listen-mode")) setVisual(chapter.nodes[i]); }, onEnterBack:()=>{ if(!document.body.classList.contains("listen-mode")) setVisual(chapter.nodes[i]); } });
   if (!reduceMotion) gsap.from(step.querySelector(".node-card"), { opacity:0, y:70, duration:.8, scrollTrigger:{ trigger:step, start:"top 82%", toggleActions:"play none none reverse" } });
 });
 
@@ -251,21 +265,24 @@ document.addEventListener("keydown",e=>{
 function toggleIndex(show = index.hidden) {
   index.hidden=!show;
   document.querySelector("#index-toggle").setAttribute("aria-expanded",String(show));
-  document.querySelector("#back-to-map").hidden=show;
+  document.querySelector("#back-to-map").hidden=show||coverActive;
   if(show) requestAnimationFrame(()=>{drawNetwork();centerMapNode(currentMapNode,false);index.focus({preventScroll:true});});
 }
 let scrollTargetId = null;
 function setBookView(view, requestedNodeId = null) {
+  const wasCover=coverActive;
   coverActive=false;
   const leavingMap=!index.hidden;
-  const targetId=requestedNodeId || (leavingMap ? currentMapNode : activeNode?.id) || currentMapNode;
+  const targetId=(!requestedNodeId || !chapter.nodes.some(node=>node.id===requestedNodeId) ? null : requestedNodeId) || (leavingMap ? currentMapNode : activeNode?.id) || currentMapNode;
   const targetNode=chapter.nodes.find(node=>node.id===targetId) || chapter.nodes[0];
   const map=view==="map";
   const rich=view==="rich";
+  const listening=view==="listen";
   const reading=!map;
   currentMapNode=targetNode.id;
   activeNode=targetNode;
   document.body.classList.toggle("linear-mode",rich);
+  document.body.classList.toggle("listen-mode",listening);
   document.querySelectorAll(".node-notes").forEach(details=>{details.open=rich;});
   toggleIndex(map);
   document.querySelector("#index-toggle").classList.toggle("active",map);
@@ -274,7 +291,15 @@ function setBookView(view, requestedNodeId = null) {
   document.querySelector("#mode-toggle").setAttribute("aria-pressed",String(reading));
   document.querySelector("#story-mode").setAttribute("aria-checked",String(view==="story"));
   document.querySelector("#rich-mode").setAttribute("aria-checked",String(rich));
+  document.querySelector("#listen-mode").setAttribute("aria-checked",String(listening));
+  document.querySelector("#mode-toggle").textContent=listening?t("Escolta"):t("Lectura");
   document.querySelector("#mode-toggle").setAttribute("aria-expanded","false");
+  if(listening){
+    const ref=requestedNodeId===""?null:(requestedNodeId||(wasCover?null:targetNode.id));
+    listen.open(ref,{replace:requestedNodeId===""||Boolean(listenHashId())});
+    return;
+  }
+  listen.close();
   if(map){
     refreshMapState();
     requestAnimationFrame(()=>centerMapNode(targetNode.id,false));
@@ -343,9 +368,14 @@ tocButton.addEventListener("click", () => {
 document.addEventListener("click", e => { if (!e.target.closest("#toc-menu")) closeToc(); });
 tocMenu.addEventListener("keydown", e => { if (e.key === "Escape") { e.stopPropagation(); closeToc(true); } });
 tocMenu.addEventListener("focusout", e => { if (!tocMenu.contains(e.relatedTarget)) tocTimer = setTimeout(() => closeToc(), 150); });
+document.addEventListener("cancerpitalism:listen", event => {
+  const node = chapter.nodes[(event.detail?.nodeOrder || 0) - 1];
+  if (node) updateChapterMark(node);
+});
 function goToNode(id, targetId = null) {
   const node = chapter.nodes.find(item => item.id === id);
   if (!node) return;
+  if (document.body.classList.contains("listen-mode")) { listen.goToNode(id, targetId); return; }
   if (!index.hidden) { activateMapNode(id); return; }
   scrollTargetId = targetId;
   setBookView(document.body.classList.contains("linear-mode") ? "rich" : "story", id);
@@ -361,6 +391,7 @@ document.querySelector("#index-toggle").onclick=()=>setBookView("map");
 document.querySelector("#mode-toggle").onclick=()=>setBookView("story");
 document.querySelector("#story-mode").onclick=()=>setBookView("story");
 document.querySelector("#rich-mode").onclick=()=>setBookView("rich");
+document.querySelector("#listen-mode").onclick=()=>setBookView("listen");
 document.querySelector("#index-close").onclick=()=>setBookView("story");
 document.querySelector("#back-to-map").onclick=()=>setBookView("map");
 document.querySelector(".cover-reading-options").addEventListener("click",e=>{
@@ -370,10 +401,13 @@ document.querySelector(".cover-reading-options").addEventListener("click",e=>{
 document.querySelector(".brand").addEventListener("click",e=>{
   e.preventDefault();
   coverActive=true;
-  document.body.classList.remove("linear-mode");
+  document.body.classList.remove("linear-mode","listen-mode");
+  listen.close();
   toggleIndex(false);
   document.querySelector("#index-toggle").classList.remove("active");
   document.querySelector("#mode-toggle").classList.add("active");
+  document.querySelector("#mode-toggle").textContent=t("Lectura");
+  document.querySelector("#listen-mode").setAttribute("aria-checked","false");
   document.querySelector("#index-toggle").setAttribute("aria-pressed","false");
   document.querySelector("#mode-toggle").setAttribute("aria-pressed","true");
   history.pushState({cover:true},"","#inici");
@@ -493,9 +527,17 @@ document.querySelector("#zoom-in").onclick=()=>setMapZoom(mapScale*1.2);
 document.querySelector("#zoom-out").onclick=()=>setMapZoom(mapScale/1.2);
 document.querySelector("#zoom-reset").onclick=fitMap;
 document.querySelector("#restart").onclick=()=>scrollTo({top:0,behavior:reduceMotion?"auto":"smooth"});
-addEventListener("scroll",()=>{ const max=document.documentElement.scrollHeight-innerHeight; document.querySelector("#progress-bar").style.transform=`scaleX(${Math.min(1,scrollY/max)})`; },{passive:true});
+addEventListener("scroll",()=>{ if(document.body.classList.contains("listen-mode"))return; const max=document.documentElement.scrollHeight-innerHeight; document.querySelector("#progress-bar").style.transform=`scaleX(${Math.min(1,scrollY/max)})`; },{passive:true});
 addEventListener("resize",()=>{ syncMapSurface(); if(!index.hidden) drawNetwork(); },{passive:true});
 addEventListener("popstate",()=>{
+  const hashed=listenHashId();
+  if(hashed!==null){ setBookView("listen",hashed); return; }
+  if(document.body.classList.contains("listen-mode")){
+    listen.close({keepHash:true});
+    document.body.classList.remove("listen-mode");
+    document.querySelector("#mode-toggle").textContent=t("Lectura");
+    document.querySelector("#listen-mode").setAttribute("aria-checked","false");
+  }
   const params=new URLSearchParams(location.search);
   const found=chapter.nodes.find(n=>hashNode()===n.id);
   if(found){coverActive=false;activeNode=found;document.querySelector(`#${found.id}`)?.scrollIntoView();}
@@ -512,11 +554,16 @@ addEventListener("popstate",()=>{
 
 const initialQuery=hashFace();
 const pendingOrder=takePendingOrder();
+const hashedListen=listenHashId();
+const storedListen=consumeListenTrack();
 const initialNode=(pendingOrder&&chapter.nodes[pendingOrder-1])||chapter.nodes.find(n=>hashNode()===n.id);
-if(initialNode){ setVisual(initialNode,true); setBookView("story",initialNode.id); }
+const openedListen=hashedListen!==null||Boolean(storedListen);
+if(hashedListen!==null) setBookView("listen",hashedListen);
+else if(storedListen) setBookView("listen",storedListen);
+else if(initialNode){ setVisual(initialNode,true); setBookView("story",initialNode.id); }
 const initialFace=Object.keys(faces).find(k=>faces[k].query===initialQuery); if(initialFace) setTimeout(()=>openFace(initialFace,false),100);
 syncMapSurface();
-if(!initialNode){
+if(!openedListen && !initialNode){
   coverActive=true;
   document.body.classList.remove("linear-mode");
   toggleIndex(false);
@@ -527,4 +574,4 @@ if(!initialNode){
   history.replaceState({cover:true},"","#inici");
   requestAnimationFrame(()=>document.querySelector("#introduccio").scrollIntoView({behavior:"auto"}));
 }
-else { currentMapNode=initialNode.id; activateMapNode(initialNode.id,false); }
+else if(initialNode) { currentMapNode=initialNode.id; activateMapNode(initialNode.id,false); }
