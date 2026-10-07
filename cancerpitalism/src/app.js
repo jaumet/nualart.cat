@@ -15,6 +15,12 @@ const store = {
 const hashNode = () => decodeURIComponent(location.hash.slice(1)).split("~")[0];
 const hashFace = () => decodeURIComponent(location.hash.slice(1)).split("~")[1] || null;
 translateDom();
+const pdfDownload = document.querySelector("[data-pdf-download]");
+if (pdfDownload) {
+  const filename = `cancerpitalism-${lang}.pdf`;
+  pdfDownload.href = `pdf/${filename}`;
+  pdfDownload.download = filename;
+}
 const chapter = await loadToc();
 document.querySelector("#book-structure").textContent=`${chapter.nodes.length} ${t("nodes")}`;
 document.querySelector("#book-chapters").textContent=`${chapter.chapters.length} ${t("capítols")}`;
