@@ -16,18 +16,16 @@ const store = {
 const hashNode = () => decodeURIComponent(location.hash.slice(1)).split("~")[0];
 const hashFace = () => decodeURIComponent(location.hash.slice(1)).split("~")[1] || null;
 translateDom();
-const pdfDownload = document.querySelector("[data-pdf-download]");
-if (pdfDownload) {
+document.querySelectorAll("[data-pdf-download]").forEach(link => {
   const filename = `cancerpitalism-${lang}.pdf`;
-  pdfDownload.href = `${MEDIA_BASE}pdf/${filename}`;
-  pdfDownload.download = filename;
-}
-const epubDownload = document.querySelector("[data-epub-download]");
-if (epubDownload) {
+  link.href = `${MEDIA_BASE}pdf/${filename}`;
+  link.download = filename;
+});
+document.querySelectorAll("[data-epub-download]").forEach(link => {
   const filename = `cancerpitalism-${lang}.epub`;
-  epubDownload.href = `${MEDIA_BASE}epub/${filename}`;
-  epubDownload.download = filename;
-}
+  link.href = `${MEDIA_BASE}epub/${filename}`;
+  link.download = filename;
+});
 const chapter = await loadToc();
 document.querySelector("#book-structure").textContent=`${chapter.nodes.length} ${t("nodes")}`;
 document.querySelector("#book-chapters").textContent=`${chapter.chapters.length} ${t("capítols")}`;
@@ -264,7 +262,7 @@ document.addEventListener("keydown",e=>{
 
 function toggleIndex(show = index.hidden) {
   index.hidden=!show;
-  document.querySelector("#index-toggle").setAttribute("aria-expanded",String(show));
+  document.querySelector("#index-toggle")?.setAttribute("aria-expanded",String(show));
   document.querySelector("#back-to-map").hidden=show||coverActive;
   if(show) requestAnimationFrame(()=>{drawNetwork();centerMapNode(currentMapNode,false);index.focus({preventScroll:true});});
 }
@@ -285,15 +283,17 @@ function setBookView(view, requestedNodeId = null) {
   document.body.classList.toggle("listen-mode",listening);
   document.querySelectorAll(".node-notes").forEach(details=>{details.open=rich;});
   toggleIndex(map);
-  document.querySelector("#index-toggle").classList.toggle("active",map);
-  document.querySelector("#mode-toggle").classList.toggle("active",reading);
-  document.querySelector("#index-toggle").setAttribute("aria-pressed",String(map));
-  document.querySelector("#mode-toggle").setAttribute("aria-pressed",String(reading));
-  document.querySelector("#story-mode").setAttribute("aria-checked",String(view==="story"));
-  document.querySelector("#rich-mode").setAttribute("aria-checked",String(rich));
-  document.querySelector("#listen-mode").setAttribute("aria-checked",String(listening));
-  document.querySelector("#mode-toggle").textContent=listening?t("Escolta"):t("Lectura");
-  document.querySelector("#mode-toggle").setAttribute("aria-expanded","false");
+  document.querySelector("#index-toggle")?.classList.toggle("active",map);
+  document.querySelector("#mode-toggle")?.classList.toggle("active",reading);
+  document.querySelector("#index-toggle")?.setAttribute("aria-pressed",String(map));
+  document.querySelector("#mode-toggle")?.setAttribute("aria-pressed",String(reading));
+  document.querySelector("#story-mode")?.setAttribute("aria-checked",String(view==="story"));
+  document.querySelector("#rich-mode")?.setAttribute("aria-checked",String(rich));
+  document.querySelector("#listen-mode")?.setAttribute("aria-checked",String(listening));
+  document.querySelectorAll("[data-format]").forEach(button=>button.setAttribute("aria-checked",String(button.dataset.format===view)));
+  const modeToggle=document.querySelector("#mode-toggle");
+  if(modeToggle) modeToggle.textContent=listening?t("Escolta"):t("Lectura");
+  modeToggle?.setAttribute("aria-expanded","false");
   if(listening){
     const ref=requestedNodeId===""?null:(requestedNodeId||(wasCover?null:targetNode.id));
     listen.open(ref,{replace:requestedNodeId===""||Boolean(listenHashId())});
@@ -387,11 +387,29 @@ tocPanel.addEventListener("click", e => {
   goToNode(button.dataset.tocNode, button.dataset.tocTarget || null);
 });
 
-document.querySelector("#index-toggle").onclick=()=>setBookView("map");
-document.querySelector("#mode-toggle").onclick=()=>setBookView("story");
-document.querySelector("#story-mode").onclick=()=>setBookView("story");
-document.querySelector("#rich-mode").onclick=()=>setBookView("rich");
-document.querySelector("#listen-mode").onclick=()=>setBookView("listen");
+document.querySelector("#index-toggle")?.addEventListener("click",()=>setBookView("map"));
+document.querySelector("#mode-toggle")?.addEventListener("click",()=>setBookView("story"));
+document.querySelector("#story-mode")?.addEventListener("click",()=>setBookView("story"));
+document.querySelector("#rich-mode")?.addEventListener("click",()=>setBookView("rich"));
+document.querySelector("#listen-mode")?.addEventListener("click",()=>setBookView("listen"));
+const formatMenu=document.querySelector("#format-menu");
+const formatToggle=document.querySelector("#format-toggle");
+const formatOptions=document.querySelector("#format-options");
+function closeFormatMenu(){
+  formatMenu?.classList.remove("is-open");
+  formatToggle?.setAttribute("aria-expanded","false");
+}
+formatToggle?.addEventListener("click",()=>{
+  const open=formatMenu.classList.toggle("is-open");
+  formatToggle.setAttribute("aria-expanded",String(open));
+});
+formatOptions?.addEventListener("click",e=>{
+  const item=e.target.closest("[data-format]");
+  closeFormatMenu();
+  if(item) setBookView(item.dataset.format);
+});
+document.addEventListener("click",e=>{ if(!e.target.closest("#format-menu")) closeFormatMenu(); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape") closeFormatMenu(); });
 document.querySelector("#index-close").onclick=()=>setBookView("story");
 document.querySelector("#back-to-map").onclick=()=>setBookView("map");
 document.querySelector(".cover-reading-options").addEventListener("click",e=>{
@@ -404,12 +422,14 @@ document.querySelector(".brand").addEventListener("click",e=>{
   document.body.classList.remove("linear-mode","listen-mode");
   listen.close();
   toggleIndex(false);
-  document.querySelector("#index-toggle").classList.remove("active");
-  document.querySelector("#mode-toggle").classList.add("active");
-  document.querySelector("#mode-toggle").textContent=t("Lectura");
-  document.querySelector("#listen-mode").setAttribute("aria-checked","false");
-  document.querySelector("#index-toggle").setAttribute("aria-pressed","false");
-  document.querySelector("#mode-toggle").setAttribute("aria-pressed","true");
+  document.querySelector("#index-toggle")?.classList.remove("active");
+  document.querySelector("#mode-toggle")?.classList.add("active");
+  const modeToggle=document.querySelector("#mode-toggle");
+  if(modeToggle) modeToggle.textContent=t("Lectura");
+  document.querySelector("#listen-mode")?.setAttribute("aria-checked","false");
+  document.querySelectorAll("[data-format]").forEach(button=>button.setAttribute("aria-checked","false"));
+  document.querySelector("#index-toggle")?.setAttribute("aria-pressed","false");
+  document.querySelector("#mode-toggle")?.setAttribute("aria-pressed","true");
   history.pushState({cover:true},"","#inici");
   document.querySelector("#introduccio").scrollIntoView({behavior:reduceMotion?"auto":"smooth"});
 });
@@ -535,8 +555,9 @@ addEventListener("popstate",()=>{
   if(document.body.classList.contains("listen-mode")){
     listen.close({keepHash:true});
     document.body.classList.remove("listen-mode");
-    document.querySelector("#mode-toggle").textContent=t("Lectura");
-    document.querySelector("#listen-mode").setAttribute("aria-checked","false");
+    const modeToggle=document.querySelector("#mode-toggle");
+    if(modeToggle) modeToggle.textContent=t("Lectura");
+    document.querySelector("#listen-mode")?.setAttribute("aria-checked","false");
   }
   const params=new URLSearchParams(location.search);
   const found=chapter.nodes.find(n=>hashNode()===n.id);
@@ -567,10 +588,10 @@ if(!openedListen && !initialNode){
   coverActive=true;
   document.body.classList.remove("linear-mode");
   toggleIndex(false);
-  document.querySelector("#index-toggle").classList.remove("active");
-  document.querySelector("#mode-toggle").classList.add("active");
-  document.querySelector("#index-toggle").setAttribute("aria-pressed","false");
-  document.querySelector("#mode-toggle").setAttribute("aria-pressed","true");
+  document.querySelector("#index-toggle")?.classList.remove("active");
+  document.querySelector("#mode-toggle")?.classList.add("active");
+  document.querySelector("#index-toggle")?.setAttribute("aria-pressed","false");
+  document.querySelector("#mode-toggle")?.setAttribute("aria-pressed","true");
   history.replaceState({cover:true},"","#inici");
   requestAnimationFrame(()=>document.querySelector("#introduccio").scrollIntoView({behavior:"auto"}));
 }

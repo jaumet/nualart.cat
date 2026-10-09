@@ -51,6 +51,8 @@ const UI_EN = {
   "Mapa": "Map",
   "Lectura": "Reading",
   "Mode de lectura": "Reading mode",
+  "Formats": "Formats",
+  "Formats de lectura": "Reading formats",
   "Scrollytelling": "Scrollytelling",
   "Rich Text": "Rich Text",
   "Mapa del capítol": "Book map",
